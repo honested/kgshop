@@ -3,7 +3,7 @@ body,h1,h2,h3,p,div,ul,li,dl,dt,dd{margin:0;padding:0}
 ul,li{list-style:none}
 a{text-decoration:none;color:#222}
 address{font-style:normal}
-body{font-family:"나눔고딕","맑은 고딕","돋움",sans-serif,serif;font-size:13px;line-height:1.5;   letter-spacing:-1px;direction:ltr}
+body{font-family:"맑은 고딕","돋움",sans-serif,serif;font-size:13px;line-height:1.5;   letter-spacing:-1px;direction:ltr;box-sizing: border-box}
 
 /* common */
 .hide{position:absolute;left:-9999px;top:-9999px}
@@ -15,11 +15,11 @@ body{font-family:"나눔고딕","맑은 고딕","돋움",sans-serif,serif;font-s
 #skipMenu span{display:inline-block;padding:2px 6px 0 0;color:#fff;letter-spacing:-1px;font-size:13px;line-height:26px}
 
 /* header */
-#header {font-size: 18px;font-weight: normal;height: 80px;box-sizing: border-box;}
-#header h1 {position: absolute;left: 260px;top: 15px;}/* 좌측 상단 배치*/
+#header {font-size: 18px;font-weight: normal;height: 80px;}
+#header h1 {position: absolute;left: 260px;top: 15px;}
 #header h1 a {display: block;background: url(../images/logo.png) no-repeat;width: 225px;height: 59px;text-indent: -9999px;}
 
-/* header .gnb */
+/* gnb */
 .gnb {text-align: center;}
 .gnb ul {display: inline-block;margin-top: 10px;}
 .gnb li {display: inline-block;position: relative;}
@@ -30,7 +30,7 @@ body{font-family:"나눔고딕","맑은 고딕","돋움",sans-serif,serif;font-s
 .gnb li:hover ul a {padding: 30px 25px 20px;margin-top: -10px;}
 .gnb > ul > li:hover::after {content: "";width: 100%; height: 1px;display: block; position: absolute;margin-top: -10px; border-bottom: 3px solid #232323;}
 
-/* header .top_menu */
+/* top_menu */
 .top_menu {position: absolute;right: 260px;top: 20px;}
 .top_menu ul {display: inline-block;}
 .top_menu li {display: inline-block; position: relative;}
@@ -48,80 +48,70 @@ body{font-family:"나눔고딕","맑은 고딕","돋움",sans-serif,serif;font-s
 .ban_main a {height: 550px;width: 100%; display: block; margin-bottom: 50px;}
 
 /* recom_item */
-.recom_item {width: 1080px;height: 400px; margin: auto;box-sizing: border-box;position: relative;}
+.recom_item {width: 1080px;height: 400px; margin: auto;position: relative;}
 .recom_item_title {text-align: center;font-size: 20px;font-weight: bold;height: 70px;background: url(../images/title_line.jpg) repeat-x left 20px;}
 .recom_item_title span {padding: 0 20px;display: inline-block;background-color: #fff;}
 
 .recom_item ul {width: 887px;margin: auto;}
-.recom_item li {float: left;box-sizing: border-box;}
 .recom_item ul a {display: block; width: 280px;height: 280px;}
 .recom_item ul div {width: 264px;position: absolute; font-size: 16px;border-bottom: 1px solid #d6d6d6;left: 8px;top: 208px;}
 .recom_item ul span {font-size: 22px;font-weight: bold;left: 185px;top: 240px;position: absolute;}
+.recom_item li {float: left;position: relative; width: 280px;height: 280px;border: 1px solid #d6d6d6;background: url(../images/callaway-ball-set.png) no-repeat left 50% top 10px;}
+.recom_item li:nth-child(2) {margin: 0 20px;}
 
-.recom_item .recom_item1 {position: relative; width: 280px;height: 280px;border: 1px solid #d6d6d6;background: url(../images/callaway-ball-set.png) no-repeat left 50% top 10px;}
-.recom_item .recom_item2 {position: relative; width: 280px;height: 280px;border: 1px solid #d6d6d6;background: url(../images/callaway-ball-set.png) no-repeat left 50% top 10px;margin: 0 20px;}
-.recom_item .recom_item3 {position: relative; width: 280px;height: 280px;border: 1px solid #d6d6d6;background: url(../images/callaway-ball-set.png) no-repeat left 50% top 10px;}
-
-.recom_item .recom_item_prev {width: 27px;height: 59px; background: url(../images/arrow_left.png) no-repeat;position: absolute;top: 160px;display: block;text-indent: -9999px;}
-.recom_item .recom_item_next {width: 27px;height: 59px; background: url(../images/arrow_right.png) no-repeat;position: absolute;top: 160px;left: 1053px; display: block;text-indent: -9999px;}
+.recom_item_prev {width: 27px;height: 59px; background: url(../images/arrow_left.png) no-repeat;position: absolute;top: 160px;display: block;text-indent: -9999px;}
+.recom_item_next {width: 27px;height: 59px; background: url(../images/arrow_right.png) no-repeat;position: absolute;top: 160px;left: 1053px; display: block;text-indent: -9999px;}
 
 /* new_item */
-.new_item {width: 1080px;height: 1140px; margin: auto;box-sizing: border-box;position: relative;}
+.new_item {width: 1080px;height: 1140px; margin: auto;position: relative;}
 .new_item_title {text-align: center;font-size: 20px;font-weight: bold;height: 60px;background: url(../images/title_line.jpg) repeat-x left 20px;}
 .new_item_title span {padding: 0 20px;display: inline-block;background-color: #fff;}
 
 .new_item ul {width: 1030px;margin: auto;}
 .new_item li {float: left;}
-.new_item ul div {width: 305px;position: absolute; font-size: 16px;border-bottom: 1px solid #d6d6d6;left: 8px;top: 250px;}
-.new_item ul span {font-size: 22px;font-weight: bold;left: 230px;top: 282px;position: absolute;}
 
-.new_item .new_item_type1 {height: 700px;}
-.new_item .new_item_type2 li {position: relative; width: 324px;height: 324px;border: 1px solid #d6d6d6}
-.new_item .new_item_type2 a {display: block;width: 324px;height: 324px;}
+.new_item_big {width: 673px;height: 673px;border: 1px solid #d6d6d6;margin: 0 25px 25px 0;background: url(../images/callaway_ball_set-670.png) no-repeat; text-indent: -9999px;}
+.new_item_big a {width: 673px;height: 673px;display: block;}
 
-.new_item .new_item_big {width: 673px;height: 673px;border: 1px solid #d6d6d6;margin: 0 25px 25px 0;background: url(../images/callaway_ball_set-670.png) no-repeat; text-indent: -9999px;}
-.new_item .new_item_big a {width: 673px;height: 673px;display: block;}
-.new_item .new_item_item2 {position: relative; width: 324px;height: 324px;border: 1px solid #d6d6d6;margin-bottom: 22px;background: url(../images/callaway-ball-set-copy-210.png) no-repeat left 50% top 9px;}
-.new_item .new_item_item2 a {display: block;width: 324px;height: 324px;}
-.new_item .new_item_item3 {position: relative; width: 324px;height: 324px;border: 1px solid #d6d6d6;background: url(../images/callaway-ball-set-copy-210.png) no-repeat left 50% top 9px;}
-.new_item .new_item_item3 a {display: block;width: 324px;height: 324px;}
+.new_item_item2 {width: 324px;height: 324px;border: 1px solid #d6d6d6;background: url(../images/callaway-ball-set-copy-210.png) no-repeat left 50% top 10px;position: relative;}
+.new_item_list li:nth-child(2) {margin-bottom:23px;}
+.new_item_list li:nth-child(4) {clear:both;margin-right:23px}
+.new_item_list li:nth-child(5) {margin-right:23px}
 
-.new_item .new_item_item4 {margin-right: 23px;background: url(../images/callaway-ball-set-copy-210.png) no-repeat left 50% top 9px;}
-.new_item .new_item_item5 {margin-right: 25px;background: url(../images/callaway-ball-set-copy-210.png) no-repeat left 50% top 9px;}
-.new_item .new_item_item6 {background: url(../images/callaway-ball-set-copy-210.png) no-repeat left 50% top 9px;}
+.new_item_item2 a {width: 324px;height: 324px;display: block}
+.new_item_item2 div {width: 305px;position: absolute; font-size: 16px;border-bottom: 1px solid #d6d6d6;left: 8px;top: 250px;}
+.new_item_item2 span {font-size: 22px;font-weight: bold;left: 230px;top: 282px;position: absolute;}
 
 /* ban_kakaovx */
 .ban_kakaovx {background: url(../images/kakaovx-banner.jpg) no-repeat;text-indent: -9999px;background-position: center; background-color: #ffcd00;}
 .ban_kakaovx a {height: 120px;width: 100%; display: block; margin-bottom: 40px;}
 
 /* best_item */
-.best_item {width: 1080px;height: 1140px; margin: auto;box-sizing: border-box;position: relative;}
+.best_item {width: 1080px;height: 1140px; margin: auto;position: relative;}
 .best_item_title {text-align: center;font-size: 20px;font-weight: bold;height: 60px;background: url(../images/title_line.jpg) repeat-x left 20px;}
 .best_item_title span {padding: 0 20px;display: inline-block;background-color: #fff;}
 
 .best_item ul {width: 1030px;margin: auto;}
-.best_item ul div {width: 305px;position: absolute; font-size: 16px;border-bottom: 1px solid #d6d6d6;left: 8px;top: 250px;}
-.best_item ul span {font-size: 22px;font-weight: bold;left: 230px;top: 282px;position: absolute;}
-.best_item .best_item_type1 {height: 700px;}
-.best_item .best_item_type2 a {display: block;width: 324px;height: 324px;}
 
-.best_item .best_item_big {width: 673px;height: 673px;border: 1px solid #d6d6d6;margin: 0 0 25px 25px;background: url(../images/callaway_ball_set-670.png) no-repeat; text-indent: -9999px;float: right;}
-.best_item .best_item_big a {width: 673px;height: 673px;display: block;}
-.best_item .best_item_item2 {position: relative; width: 324px;height: 324px;border: 1px solid #d6d6d6;margin-bottom: 22px;background: url(../images/callaway-ball-set-copy-210.png) no-repeat left 50% top 9px;float: left;}
-.best_item .best_item_item2 a {display: block;width: 324px;height: 324px;}
-.best_item .best_item_item3 {position: relative; width: 324px;height: 324px;border: 1px solid #d6d6d6;background: url(../images/callaway-ball-set-copy-210.png) no-repeat left 50% top 9px;float: left;}
-.best_item .best_item_item3 a {display: block;width: 324px;height: 324px;}
+.best_item_big {width: 673px;height: 673px;border: 1px solid #d6d6d6;margin: 0 0 25px 25px;background: url(../images/callaway_ball_set-670.png) no-repeat; text-indent: -9999px;float: right;}
+.best_item_big a {width: 673px;height: 673px;display: block;}
 
-.best_item_item4 {position: relative; width: 324px;height: 324px;border: 1px solid #d6d6d6;background: url(../images/callaway-ball-set-copy-210.png) no-repeat left 50% top 9px;float: left;margin-right: 29px;}
-.best_item_item5 {position: relative; width: 324px;height: 324px;border: 1px solid #d6d6d6;background: url(../images/callaway-ball-set-copy-210.png) no-repeat left 50% top 9px;float: left;margin-right: 23px;}
-.best_item_item6 {position: relative; width: 324px;height: 324px;border: 1px solid #d6d6d6;background: url(../images/callaway-ball-set-copy-210.png) no-repeat left 50% top 9px;float: left;}
+.best_item_item2 {width: 324px;height: 324px;border: 1px solid #d6d6d6;background: url(../images/callaway-ball-set-copy-210.png) no-repeat left 50% top 10px;position: relative;}
+.best_item_list li:nth-child(2) {margin-bottom:23px;}
+.best_item_list li:nth-child(n+4) {float: left;}
+.best_item_list li:nth-child(4) {margin-right:28px;}
+.best_item_list li:nth-child(5) {margin-right:23px;}
+
+.best_item_item2 div {width: 305px;font-size: 16px;border-bottom: 1px solid #d6d6d6;left: 8px;top: 250px;position: absolute; }
+.best_item_item2 span {font-size: 22px;font-weight: bold;left: 230px;top: 282px;position: absolute;}
+.best_item_item2 a {width: 324px;height: 324px;display: block}
 
 /* footer */
 #footer {height: 210px;background: #3e3a39;color: #e1e1e1;}
 #footer a {color: #e1e1e1;}
 
 .footer_wrap {width: 1080px;margin: auto;position: relative;}
-.footer_wrap h2 {background: url(../images/logo-white.png) no-repeat; width: 232px;height: 64px;text-indent: -9999px;position: absolute;top: 85px;right: 0px;}
+.footer_wrap h2 {background: url(../images/logo-white.png) no-repeat; width: 232px;height: 64px;text-indent: -9999px;position: absolute;top: 100px;right: 0px;}
 .terms {display: inline-block;font-size: 16px;}
 .terms ul {position: absolute;top: 45px;}
 .terms li {float: left;padding-right: 37px;}
