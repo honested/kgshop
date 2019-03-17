@@ -99,12 +99,12 @@ body{font-family:"맑은 고딕","돋움",sans-serif,serif;font-size:13px;line-h
 /* pages */
 .pages {height: 100px;width: 1080px;margin: auto;font-size: 20px;text-align: center;position: relative;}
 .pages ul {display: inline-block;}
-.pages li {display: inline-block;float: left;margin: 0 5px;}
+.pages li {display: inline-block;margin: 0 5px;}
 .pages li a {display: inline-block;padding: 10px 10px;width: 10px;height: 10px;line-height: 0.5;}
 .pages li a:hover {cursor: pointer;border-radius: 100%;background-color: #232323;color: #fff;}
 .pages li a:active {border-radius: 100%;background-color: #232323;color: #fff;outline: none;}
 .pages li a:focus {cursor: default;border-radius: 100%;background-color: #232323;color: #fff;}
-.prev_page {background: url(../images/arrow_left_small.png) no-repeat;width: 20px;height: 20px;display: block;position: absolute;left: 395px;top: 6px;}
+.prev_page {background: url(../images/arrow_left_small.png) no-repeat;width: 20px;height: 20px;display: block;position: absolute;left: 400px;top: 6px;}
 .next_page {background: url(../images/arrow_right_small.png) no-repeat;width: 20px;height: 20px;display: block;position: absolute;right: 395px;top: 6px;}
 
 /* footer */

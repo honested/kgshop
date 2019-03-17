@@ -41,60 +41,55 @@ body{font-family:"맑은 고딕","돋움",sans-serif,serif;font-size:13px;line-h
 .top_menu li:hover ul li {display: block;text-align: center;}
 
 /* main_image */
-.main_image {background: url(../images/kakao_volvik.jpg) no-repeat;text-indent: -9999px;background-position: center; background-color: #ffdc00;}
-.main_image a {height: 300px;width: 100%; display: block; margin-bottom: 30px;}
+.main_image {background: url(../images/kakao_help.jpg) no-repeat;text-indent: -9999px;background-position: center; background-color: #40b984;}
+.main_image a {height: 300px;width: 100%; display: block; margin-bottom: 50px;}
 
-/* category */
-.lnb {width: 1080px;position: relative;margin: auto;height: 50px;border-bottom: 1px solid #898787;margin-bottom: 40px;}
-.category {position: absolute;left: 0px;}
-.category li {float: left;font-size: 20px;}
-.category li a {padding: 0 20px;color: #898787;}
-.category li a:hover {cursor: pointer; font-weight: bold;color: #232323}
-.category li a:active {font-weight: bold;color: #232323}
-.category li a:focus {cursor: default; font-weight: bold;color: #232323}
-.product {position: absolute;right: 0px;}
-.product select {width: 120px;height: 26px;font-size: 16px;border: 1px solid #898787;}
+/* lnb */
+.lnb {width: 1083px;height: 50px;border-bottom: 1px solid #232323;font-size: 25px;margin: auto}
+.lnb li {float: left;}
+.lnb_menu1 {margin-right: 90px}
+.lnb li a {padding: 0 20px;color: #898787;}
+.lnb li a:hover {cursor: pointer; font-weight: bold;color: #232323}
+.lnb li a:active {font-weight: bold;color: #232323}
+.lnb li a:focus {cursor: default; font-weight: bold;color: #232323}
 
-/* content_item */
-.cont_item {width: 1080px;height: 1260px; margin: auto;border-bottom: 2px solid #232323;margin-bottom: 50px}
-.cont_item ul {text-align: center;}
-.cont_item li {float: left;}
+/* cont_help */
+.cont_help {width: 1083px;height: 850px;margin: auto;letter-spacing: 0px}
 
-.cont_item1 {width: 314px;height: 314px;border: 1px solid #898787;background: url(../images/callaway_ball_314.jpg) no-repeat;margin: 0 65px 100px 0;}
-.cont_item1 a {display: block;width: 314px;height: 314px;}
-.cont_item1 div, span {font-size: 16px;padding-top: 20px;}
+.cont_help1 {height: 160px;border-bottom: 1px solid #e5e5e5;position: relative;}
+.cont_help1 span {font-weight: bold;}
+.cont_help1 dt {font-size: 14px;position: absolute;top: 50px}
+.cont_help1 dd {font-size: 18px;font-weight: bold;position: absolute;top: 93px;}
+.cont_help1 a {display: block;width: 1083px;height: 160px;}
+.cont_help1 .cont_help_arrow {position: absolute;right: 0;top: 93px;text-indent: -9999px;background: url(../images/kakao_help_arrow.jpg) no-repeat;width: 15px;height: 9px;}
 
-.cont_item2 {width: 314px;height: 314px;border: 1px solid #898787;background: url(../images/callaway_ball_314.jpg) no-repeat;margin: 0 65px 100px 0;}
-.cont_item2 a {display: block;width: 314px;height: 314px;}
-.cont_item2 div, span {font-size: 16px;padding-top: 20px;}
+.cont_help2 {height: 160px;border-bottom: 1px solid #e5e5e5;position: relative;}
+.cont_help2 span {font-weight: bold;}
+.cont_help2 dt {font-size: 14px;position: absolute;top: 50px}
+.cont_help2 dd {font-size: 18px;font-weight: bold;position: absolute;top: 93px;}
+.cont_help2 a {display: block;width: 1083px;height: 160px;}
+.cont_help2 .cont_help_arrow {position: absolute;right: 0;top: 93px;text-indent: -9999px;background: url(../images/kakao_help_arrow.jpg) no-repeat;width: 15px;height: 9px;}
 
-.cont_item3 {width: 314px;height: 314px;border: 1px solid #898787;background: url(../images/callaway_ball_314.jpg) no-repeat;margin-bottom: 100px;}
-.cont_item3 a {display: block;width: 314px;height: 314px;}
-.cont_item3 div, span {font-size: 16px;padding-top: 20px;}
+.cont_help3 {height: 160px;border-bottom: 1px solid #e5e5e5;position: relative;}
+.cont_help3 span {font-weight: bold;}
+.cont_help3 dt {font-size: 14px;position: absolute;top: 50px}
+.cont_help3 dd {font-size: 18px;font-weight: bold;position: absolute;top: 93px;}
+.cont_help3 a {display: block;width: 1083px;height: 160px;}
+.cont_help3 .cont_help_arrow {position: absolute;right: 0;top: 93px;text-indent: -9999px;background: url(../images/kakao_help_arrow.jpg) no-repeat;width: 15px;height: 9px;}
 
-.cont_item4 {width: 314px;height: 314px;border: 1px solid #898787;background: url(../images/callaway_ball_314.jpg) no-repeat;margin: 0 65px 100px 0;}
-.cont_item4 a {display: block;width: 314px;height: 314px;}
-.cont_item4 div, span {font-size: 16px;padding-top: 20px;}
+.cont_help4 {height: 160px;border-bottom: 1px solid #e5e5e5;position: relative;}
+.cont_help4 span {font-weight: bold;}
+.cont_help4 dt {font-size: 14px;position: absolute;top: 50px}
+.cont_help4 dd {font-size: 18px;font-weight: bold;position: absolute;top: 93px;}
+.cont_help4 a {display: block;width: 1083px;height: 160px;}
+.cont_help4 .cont_help_arrow {position: absolute;right: 0;top: 93px;text-indent: -9999px;background: url(../images/kakao_help_arrow.jpg) no-repeat;width: 15px;height: 9px;}
 
-.cont_item5 {width: 314px;height: 314px;border: 1px solid #898787;background: url(../images/callaway_ball_314.jpg) no-repeat;margin: 0 65px 100px 0;}
-.cont_item5 a {display: block;width: 314px;height: 314px;}
-.cont_item5 div, span {font-size: 16px;padding-top: 20px;}
-
-.cont_item6 {width: 314px;height: 314px;border: 1px solid #898787;background: url(../images/callaway_ball_314.jpg) no-repeat;margin-bottom: 100px;}
-.cont_item6 a {display: block;width: 314px;height: 314px;}
-.cont_item6 div, span {font-size: 16px;padding-top: 20px;}
-
-.cont_item7 {width: 314px;height: 314px;border: 1px solid #898787;background: url(../images/callaway_ball_314.jpg) no-repeat;margin: 0 65px 100px 0;}
-.cont_item7 a {display: block;width: 314px;height: 314px;}
-.cont_item7 div, span {font-size: 16px;padding-top: 20px;}
-
-.cont_item8 {width: 314px;height: 314px;border: 1px solid #898787;background: url(../images/callaway_ball_314.jpg) no-repeat;margin: 0 65px 100px 0;}
-.cont_item8 a {display: block;width: 314px;height: 314px;}
-.cont_item8 div, span {font-size: 16px;padding-top: 20px;}
-
-.cont_item9 {width: 314px;height: 314px;border: 1px solid #898787;background: url(../images/callaway_ball_314.jpg) no-repeat;margin-bottom: 100px;}
-.cont_item9 a {display: block;width: 314px;height: 314px;}
-.cont_item9 div, span {font-size: 16px;padding-top: 20px;}
+.cont_help5 {height: 160px;border-bottom: 2px solid #232323;position: relative;}
+.cont_help5 span {font-weight: bold;}
+.cont_help5 dt {font-size: 14px;position: absolute;top: 50px}
+.cont_help5 dd {font-size: 18px;font-weight: bold;position: absolute;top: 93px;}
+.cont_help5 a {display: block;width: 1083px;height: 160px;}
+.cont_help5 .cont_help_arrow {position: absolute;right: 0;top: 93px;text-indent: -9999px;background: url(../images/kakao_help_arrow.jpg) no-repeat;width: 15px;height: 9px;}
 
 /* pages */
 .pages {height: 100px;width: 1080px;margin: auto;font-size: 20px;text-align: center;position: relative;}
@@ -106,6 +101,23 @@ body{font-family:"맑은 고딕","돋움",sans-serif,serif;font-size:13px;line-h
 .pages li a:focus {cursor: default;border-radius: 100%;background-color: #232323;color: #fff;}
 .prev_page {background: url(../images/arrow_left_small.png) no-repeat;width: 20px;height: 20px;display: block;position: absolute;left: 400px;top: 6px;}
 .next_page {background: url(../images/arrow_right_small.png) no-repeat;width: 20px;height: 20px;display: block;position: absolute;right: 395px;top: 6px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* footer */
 #footer {height: 210px;background: #3e3a39;color: #e1e1e1;}
@@ -125,14 +137,3 @@ body{font-family:"맑은 고딕","돋움",sans-serif,serif;font-size:13px;line-h
 .facebook {background: url(../images/facebook_logo.png) no-repeat; width: 30px;height: 30px;text-indent: -9999px;margin-left: 10px;}
 
 .address {position: absolute;font-size: 14px;top: 85px;}
-
-
-
-
-
-
-
-
-
-
-

@@ -41,7 +41,7 @@ body{font-family:"맑은 고딕","돋움",sans-serif,serif;font-size:13px;line-h
 .top_menu li:hover ul li {display: block;text-align: center;}
 
 /* main_image */
-.main_image {background: url(../images/kakao_volvik.jpg) no-repeat;text-indent: -9999px;background-position: center; background-color: #ffdc00;}
+.main_image {background: url(../images/kakao_accessory.jpg) no-repeat;text-indent: -9999px;background-position: center; background-color: #f0f0f0;}
 .main_image a {height: 300px;width: 100%; display: block; margin-bottom: 30px;}
 
 /* category */

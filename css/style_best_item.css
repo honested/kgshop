@@ -41,18 +41,18 @@ body{font-family:"맑은 고딕","돋움",sans-serif,serif;font-size:13px;line-h
 .top_menu li:hover ul li {display: block;text-align: center;}
 
 /* main_image */
-.main_image {background: url(../images/kakao_volvik.jpg) no-repeat;text-indent: -9999px;background-position: center; background-color: #ffdc00;}
+.main_image {background: url(../images/kakao_best_item.jpg) no-repeat;text-indent: -9999px;background-position: center; background-color: #fddc2f;}
 .main_image a {height: 300px;width: 100%; display: block; margin-bottom: 30px;}
 
 /* category */
 .lnb {width: 1080px;position: relative;margin: auto;height: 50px;border-bottom: 1px solid #898787;margin-bottom: 40px;}
-.category {position: absolute;left: 0px;}
+/* .category {position: absolute;left: 0px;}
 .category li {float: left;font-size: 20px;}
 .category li a {padding: 0 20px;color: #898787;}
 .category li a:hover {cursor: pointer; font-weight: bold;color: #232323}
 .category li a:active {font-weight: bold;color: #232323}
-.category li a:focus {cursor: default; font-weight: bold;color: #232323}
-.product {position: absolute;right: 0px;}
+.category li a:focus {cursor: default; font-weight: bold;color: #232323}*/
+.product {position: absolute;right: 0px;top: 0}
 .product select {width: 120px;height: 26px;font-size: 16px;border: 1px solid #898787;}
 
 /* content_item */
