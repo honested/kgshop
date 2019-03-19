@@ -47,8 +47,8 @@ body{font-family:"맑은 고딕","돋움",sans-serif,serif;font-size:13px;line-h
 /* lnb */
 .lnb {width: 1083px;height: 50px;border-bottom: 1px solid #232323;font-size: 25px;margin: auto}
 .lnb li {float: left;}
-.lnb_menu1 {margin-right: 90px}
-.lnb li a {padding: 0 20px;color: #898787;}
+.lnb_menu1 {margin-right: 50px}
+.lnb li a {padding: 10px 20px 10px 0;color: #898787;}
 .lnb li a:hover {cursor: pointer; font-weight: bold;color: #232323}
 .lnb li a:active {font-weight: bold;color: #232323}
 .lnb li a:focus {cursor: default; font-weight: bold;color: #232323}
@@ -56,40 +56,36 @@ body{font-family:"맑은 고딕","돋움",sans-serif,serif;font-size:13px;line-h
 /* cont_help */
 .cont_help {width: 1083px;height: 850px;margin: auto;letter-spacing: 0px}
 
-.cont_help1 {height: 160px;border-bottom: 1px solid #e5e5e5;position: relative;}
+.cont_help1_wrap {position: relative;border-bottom: 1px solid #e5e5e5;height: 160px;width: 1083px;background: url(../images/kakao_help_arrow.jpg) no-repeat right 108px;}
+.cont_help1_wrap a {display: block;text-indent: -9999px;width: 1083px;height: 160px;}
 .cont_help1 span {font-weight: bold;}
 .cont_help1 dt {font-size: 14px;position: absolute;top: 50px}
 .cont_help1 dd {font-size: 18px;font-weight: bold;position: absolute;top: 93px;}
-.cont_help1 a {display: block;width: 1083px;height: 160px;}
-.cont_help1 .cont_help_arrow {position: absolute;right: 0;top: 93px;text-indent: -9999px;background: url(../images/kakao_help_arrow.jpg) no-repeat;width: 15px;height: 9px;}
 
-.cont_help2 {height: 160px;border-bottom: 1px solid #e5e5e5;position: relative;}
+.cont_help2_wrap {position: relative;border-bottom: 1px solid #e5e5e5;height: 160px;width: 1083px;background: url(../images/kakao_help_arrow.jpg) no-repeat right 108px;}
+.cont_help2_wrap a {display: block;text-indent: -9999px;width: 1083px;height: 160px;}
 .cont_help2 span {font-weight: bold;}
 .cont_help2 dt {font-size: 14px;position: absolute;top: 50px}
 .cont_help2 dd {font-size: 18px;font-weight: bold;position: absolute;top: 93px;}
-.cont_help2 a {display: block;width: 1083px;height: 160px;}
-.cont_help2 .cont_help_arrow {position: absolute;right: 0;top: 93px;text-indent: -9999px;background: url(../images/kakao_help_arrow.jpg) no-repeat;width: 15px;height: 9px;}
 
-.cont_help3 {height: 160px;border-bottom: 1px solid #e5e5e5;position: relative;}
+.cont_help3_wrap {position: relative;border-bottom: 1px solid #e5e5e5;height: 160px;width: 1083px;background: url(../images/kakao_help_arrow.jpg) no-repeat right 108px;}
+.cont_help3_wrap a {display: block;text-indent: -9999px;width: 1083px;height: 160px;}
 .cont_help3 span {font-weight: bold;}
 .cont_help3 dt {font-size: 14px;position: absolute;top: 50px}
 .cont_help3 dd {font-size: 18px;font-weight: bold;position: absolute;top: 93px;}
-.cont_help3 a {display: block;width: 1083px;height: 160px;}
-.cont_help3 .cont_help_arrow {position: absolute;right: 0;top: 93px;text-indent: -9999px;background: url(../images/kakao_help_arrow.jpg) no-repeat;width: 15px;height: 9px;}
 
-.cont_help4 {height: 160px;border-bottom: 1px solid #e5e5e5;position: relative;}
+.cont_help4_wrap {position: relative;border-bottom: 1px solid #e5e5e5;height: 160px;width: 1083px;background: url(../images/kakao_help_arrow.jpg) no-repeat right 108px;}
+.cont_help4_wrap a {display: block;text-indent: -9999px;width: 1083px;height: 160px;}
 .cont_help4 span {font-weight: bold;}
 .cont_help4 dt {font-size: 14px;position: absolute;top: 50px}
 .cont_help4 dd {font-size: 18px;font-weight: bold;position: absolute;top: 93px;}
-.cont_help4 a {display: block;width: 1083px;height: 160px;}
-.cont_help4 .cont_help_arrow {position: absolute;right: 0;top: 93px;text-indent: -9999px;background: url(../images/kakao_help_arrow.jpg) no-repeat;width: 15px;height: 9px;}
 
-.cont_help5 {height: 160px;border-bottom: 2px solid #232323;position: relative;}
+.cont_help5_wrap {position: relative;border-bottom: 1px solid #e5e5e5;height: 160px;width: 1083px;background: url(../images/kakao_help_arrow.jpg) no-repeat right 108px;}
+.cont_help5_wrap a {display: block;text-indent: -9999px;width: 1083px;height: 160px;}
 .cont_help5 span {font-weight: bold;}
 .cont_help5 dt {font-size: 14px;position: absolute;top: 50px}
 .cont_help5 dd {font-size: 18px;font-weight: bold;position: absolute;top: 93px;}
-.cont_help5 a {display: block;width: 1083px;height: 160px;}
-.cont_help5 .cont_help_arrow {position: absolute;right: 0;top: 93px;text-indent: -9999px;background: url(../images/kakao_help_arrow.jpg) no-repeat;width: 15px;height: 9px;}
+
 
 /* pages */
 .pages {height: 100px;width: 1080px;margin: auto;font-size: 20px;text-align: center;position: relative;}

@@ -3,7 +3,7 @@ body,h1,h2,h3,p,div,ul,li,dl,dt,dd{margin:0;padding:0}
 ul,li{list-style:none}
 a{text-decoration:none;color:#222}
 address{font-style:normal}
-body{font-family:"맑은 고딕","돋움",sans-serif,serif;font-size:13px;line-height:1.5;   letter-spacing:-1px;direction:ltr;box-sizing: border-box}
+body{font-family:"Noto Sans Korean","맑은 고딕","돋움",sans-serif,serif;font-size:13px;line-height:1.5;   letter-spacing:-1px;direction:ltr;box-sizing: border-box}
 
 /* common */
 .hide{position:absolute;left:-9999px;top:-9999px}

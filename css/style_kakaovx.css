@@ -61,7 +61,7 @@ body{font-family:"맑은 고딕","돋움",sans-serif,serif;font-size:13px;line-h
 .cont_blog_more {display: block;position: absolute;right: 0;top: 640px; font-size: 18px;background: url(../images/kakaovx_arrow.png) no-repeat right 0; width: 175px;height: 24px;line-height: 1.2;}
 
 /* partners */
-.partners {width: 1084px;height: 215px;margin: auto;margin-bottom: 150px;}
+.partners {width: 1084px;height: 215px;margin: auto;margin-bottom: 150px;position: relative;}
 .partners ul {text-align: center}
 .partners li {display: inline-block; text-indent: -9999px;padding: 30px 30px}
 
@@ -73,7 +73,7 @@ body{font-family:"맑은 고딕","돋움",sans-serif,serif;font-size:13px;line-h
 .partners_logo6 {background: url(../images/kakaovx_logo_reserve.png) no-repeat center;width: 207px;height: 59px;}
 .partners_logo7 {background: url(../images/kakaovx_logo_kgshop.png) no-repeat center;width: 225px;height: 59px;}
 
-
+.partners_bg {background: rgba(0, 0, 0, 0.03);width: 1084px;height: 215px;position: absolute;top: 10px;}/*이미지 배경이 흰색이라 밑에 따로 div를 만들어서 덮어씌움*/
 
 
 
