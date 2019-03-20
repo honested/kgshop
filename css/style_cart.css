@@ -1,0 +1,80 @@
+/* reset */
+body,h1,h2,h3,p,div,ul,li,dl,dt,dd{margin:0;padding:0}
+ul,li{list-style:none}
+a{text-decoration:none;color:#222}
+address{font-style:normal}
+body{font-family:"맑은 고딕","돋움",sans-serif,serif;font-size:13px;line-height:1.5;   letter-spacing:-1px;direction:ltr;box-sizing: border-box}
+
+/* common */
+.hide{position:absolute;left:-9999px;top:-9999px}
+
+/* skipMenu*/
+#skipMenu{position:relative}
+#skipMenu a{position:absolute;top:-40px;left:0;width:138px;border:1px solid #4ec53d;background:#333;text-align:center}
+#skipMenu a:active, #skipMenu a:focus{top:0;z-index:1000;text-decoration:none}
+#skipMenu span{display:inline-block;padding:2px 6px 0 0;color:#fff;letter-spacing:-1px;font-size:13px;line-height:26px}
+
+/* header */
+#header {font-size: 18px;font-weight: normal;height: 80px;width: 1080px;position: relative;margin: auto;}
+#header h1 {position: absolute;left: 0px ;top: 15px;}
+#header h1 a {display: block;background: url(../images/logo.png) no-repeat;width: 225px;height: 59px;text-indent: -9999px;}
+
+/* gnb */
+.gnb {text-align: center;}
+.gnb ul {display: inline-block;margin-top: 10px;}
+.gnb li {display: inline-block;position: relative;}
+.gnb li a {display: block; padding: 25px;}
+.gnb li:hover > a {font-weight: bold;}
+.gnb ul ul {display: none;position: absolute;top: 100%;z-index: 5;}/* position으로 띄워야 상위요소에 방해가 안됨*/
+.gnb li:hover ul {display: block;width: 140px;left: -16px;top: 55px; border: 1px solid #222;border-radius: 5px;background-color: #fff}
+.gnb li:hover ul a {padding: 30px 25px 20px;margin-top: -10px;}
+.gnb > ul > li:hover::after {content: "";width: 100%; height: 1px;display: block; position: absolute;margin-top: -10px; border-bottom: 3px solid #232323;}
+
+/* top_menu */
+.top_menu {position: absolute;right: 0px;top: 20px;}
+.top_menu ul {display: inline-block;}
+.top_menu li {display: inline-block; position: relative;}
+.top_menu li a {display: block;padding: 10px;}
+.top_menu li:hover > a {font-weight: bold;}
+.top_menu ul ul {display: none;position: absolute;top: 100%;z-index: 5;}
+.top_menu li:hover ul {display: block;width: 140px;border: 1px solid #222;left: -95px;top: 55px; border-radius: 5px;background-color: #fff}
+.top_menu li:hover ul li {display: block;text-align: center;}
+
+/* main_image */
+.main_image {background: url(../images/kakao_cart.jpg) no-repeat;text-indent: -9999px;background-position: center; background-color: #f18f90;}
+.main_image a {height: 300px;width: 100%; display: block; margin-bottom: 30px;}
+
+/* cart_cont */
+.cart_top {position: relative;width: 1080px;height: 40px; margin: auto;font-size: 18px;padding-bottom: 20px;box-sizing: border-box;border-bottom: 2px solid #232323}
+.cart_top p {position: absolute;}
+.cart_top a {display: block;position: absolute;right: 0;}
+
+.cart_cont {width: 1080px;margin: auto;font-size: 18px;}
+
+.cart_info li {float: left;height: 60px;border-bottom: 2px solid #e5e5e5;text-align: center;line-height: 3.5;}
+.cart_info1 {width: 110px;}
+.cart_info2 {width: 380px;border-right: 2px solid #e5e5e5}
+.cart_info3 {width: 150px;border-right: 2px solid #e5e5e5}
+.cart_info4 {width: 239px;border-right: 2px solid #e5e5e5}
+.cart_info5 {width: 195px;}
+
+.cart_item1 {width: 20px;height: 170px;}
+
+/* footer */
+#footer {height: 210px;background: #3e3a39;color: #e1e1e1;}
+#footer a {color: #e1e1e1;}
+
+.footer_wrap {width: 1080px;margin: auto;position: relative;}
+.footer_wrap h2 {background: url(../images/logo-white.png) no-repeat; width: 232px;height: 64px;text-indent: -9999px;position: absolute;top: 100px;right: 0px;}
+.terms {display: inline-block;font-size: 16px;}
+.terms ul {position: absolute;top: 45px;}
+.terms li {float: left;padding-right: 37px;}
+.terms li a {display: block;}
+
+.social_link ul {position: absolute;right: 0px; top: 45px}
+.social_link li {float: left;}
+.social_link a {display: block;width: 30px;height: 30px;}
+.instar {background: url(../images/instar_logo.png) no-repeat; width: 30px;height: 30px;text-indent: -9999px;}
+.facebook {background: url(../images/facebook_logo.png) no-repeat; width: 30px;height: 30px;text-indent: -9999px;margin-left: 10px;}
+
+.address {position: absolute;font-size: 14px;top: 85px;}
