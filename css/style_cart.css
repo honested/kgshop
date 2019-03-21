@@ -58,7 +58,21 @@ body{font-family:"맑은 고딕","돋움",sans-serif,serif;font-size:13px;line-h
 .cart_info4 {width: 239px;border-right: 2px solid #e5e5e5}
 .cart_info5 {width: 195px;}
 
-.cart_item1 {width: 20px;height: 170px;}
+.cart_item {}
+.cart_item li {float: left;line-height: 10;height: 170px;border-bottom: 2px solid #e5e5e5;}
+
+.cart_item1 {width: 20px;}
+
+.cart_item2 {width: 470px;position: relative;border-right: 2px solid #e5e5e5}
+.cart_item2 img {position: relative;top: 20px;left: 10px;border: 1px solid #e5e5e5}
+.cart_item2 a {display: block;}
+.cart_item2 span {position: absolute;right: 40px;}
+
+.cart_item3 {text-align: center;width: 150px;border-right: 2px solid #e5e5e5}
+
+.cart_item4 {width: 239px;border-right: 2px solid #e5e5e5}
+.cart_item4 div {width: 50px;height: 50px;border: 1px solid #232323;position: relative;}
+.cart_item4 p {position: absolute}
 
 /* footer */
 #footer {height: 210px;background: #3e3a39;color: #e1e1e1;}
