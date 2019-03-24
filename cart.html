@@ -99,10 +99,10 @@
                     <li class="cart_item4">
                         <form class="item_value">
                             <label for="item_value" class="hide">현재수량</label>
-                            <input type="text" id="item_value" name="item_value" value="1">
-                            <button type="button" class="btn_up"><span class="hide">수량추가</span></button>
-                            <button type="button" class="btn_down"><span class="hide">수량빼기</span></button>
-                            <button type="button" class="btn_value_change">수량변경</button>
+                            <input type="text" id="item_value" name="item_value" value="1" readonly>
+                            <button type="button" name="item_value_btn" id="item_value_btn" value="value_up" class="btn_up"><span class="hide">수량추가</span></button>
+                            <button type="button" name="item_value_btn" id="item_value_btn" value="value_down" class="btn_down"><span class="hide">수량빼기</span></button>
+                            <button type="button" name="item_value_btn" id="item_value_btn" value="value_change" class="btn_value_change">수량변경</button>
                         </form>
                     </li>
                     <li class="cart_item5">25,000원</li>
@@ -119,7 +119,7 @@
             <div class="minus"></div>
         </div>
         <div class="order_button">
-        <a href="#">주문하기</a>
+        <a href="order.html">주문하기</a>
     </div>
     </div>
     <!--content-->

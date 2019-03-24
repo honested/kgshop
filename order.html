@@ -74,45 +74,230 @@
             </div>
         </div>
         <form action="">
-        <div class="order_list">
-            <div class="order_list_h">
-                <h3>상품 리스트</h3>
-            </div>
-            <div class="order_list_item">
-                <a href="#"></a>
-                <span>카카오 라이언 X 캘러웨이 볼 패키지 R4</span>
-            </div>
-            <div class="order_list_info">
-                <dl class="order_list_info1">
-                    <dt>옵션 :</dt>
-                    <dd>R4</dd>
-                </dl>
-                <dl class="order_list_info2">
-                    <dt>수량 :</dt>
-                    <dd>1</dd>
-                    <dd>개</dd>
-                </dl>
-                <dl class="order_list_info3">
-                    <dt>금액 :</dt>
-                    <dd>25,000</dd>
-                    <dd>원</dd>
-                </dl>
-            </div>
-        </div>
-        <div class="order_info">
-            <div class="order_info_user">
-                <div class="order_info_user_h">
-                    <h3>주문자 정보</h3>
+            <div class="order_list">
+                <div class="order_list_h">
+                    <h3>상품 리스트</h3>
+                </div>
+                <div class="order_list_item">
+                    <a href="#"></a>
+                    <span>카카오 라이언 X 캘러웨이 볼 패키지 R4</span>
+                </div>
+                <div class="order_list_info">
+                    <dl class="order_list_info1">
+                        <dt>옵션 :</dt>
+                        <dd>R4</dd>
+                    </dl>
+                    <dl class="order_list_info2">
+                        <dt>수량 :</dt>
+                        <dd>1</dd>
+                        <dd>개</dd>
+                    </dl>
+                    <dl class="order_list_info3">
+                        <dt>금액 :</dt>
+                        <dd>25,000</dd>
+                        <dd>원</dd>
+                    </dl>
                 </div>
             </div>
-            <div class="order_info_address">
-
+            <div class="order_info">
+                <div class="order_info_user">
+                    <div class="order_info_user_h">
+                        <h3>주문자 정보</h3>
+                    </div>
+                    <dl class="order_info_user_nation">
+                        <dt>국가 선택</dt>
+                        <dd>
+                            <select name="unation" id="unation">
+                                <option value="korea">한국</option>
+                                <option value="japan">일본</option>
+                                <option value="china">중국</option>
+                            </select>
+                        </dd>
+                    </dl>
+                    <dl class="order_info_user_name">
+                        <dt>이름 입력</dt>
+                        <dd>
+                            <input type="text" name="uname" id="uname" value="이름" maxlength="100">
+                        </dd>
+                    </dl>
+                    <dl class="order_info_user_mail">
+                        <dt>이메일 입력</dt>
+                        <dd>
+                            <input type="text" name="umail_id" id="umail_id" value="아이디(이메일)입력" class="order_info_user_mail_id" maxlength="20">@
+                            <input type="text" name="umail_txt" id="umail_txt" value="직접입력" class="order_info_user_mail_direct" maxlength="20">
+                            <select name="umail_select" id="umail_select">
+                                <option value="">선택</option>
+                                <option value="daum.net">daum.net</option>
+                                <option value="naver.com">naver.com</option>
+                            </select>
+                        </dd>
+                    </dl>
+                    <dl class="order_info_user_phone">
+                        <dt>연락처 입력</dt>
+                        <dd>
+                            <input type="text" name="uphone_nation" id="uphone_nation" readonly value="82" class="order_info_user_phone_nation">
+                            <input type="text" name="uphone" id="uphone" value="휴대전화(숫자만 입력해 주세요)" class="order_info_user_phone_num" maxlength="20">
+                        </dd>
+                    </dl>
+                </div>
+                <!-- order_info_user -->
+                <div class="order_info_address">
+                    <div class="order_info_address_h">
+                        <h3>배송지 정보</h3>
+                    </div>
+                    <dl class="order_info_address_nation">
+                        <dt>국가 선택</dt>
+                        <dd>
+                            <select name="unation" id="unation">
+                                <option value="korea">한국</option>
+                                <option value="japan">일본</option>
+                                <option value="china">중국</option>
+                            </select>
+                        </dd>
+                    </dl>
+                    <dl class="order_info_address_name">
+                            <dt>이름 입력</dt>
+                            <dd>
+                                <input type="text" name="uname" id="uname" value="이름" maxlength="100">
+                            </dd>
+                        </dl>
+                    <dl class="order_info_address_mail">
+                        <dt>이메일 입력</dt>
+                        <dd>
+                            <input type="text" name="umail_id" id="umail_id" value="아이디(이메일)입력" class="order_info_address_mail_id" maxlength="20">@
+                            <input type="text" name="umail_txt" id="umail_txt" value="직접입력" class="order_info_address_mail_direct" maxlength="20">
+                            <select name="umail_select" id="umail_select">
+                                <option value="">선택</option>
+                                <option value="daum.net">daum.net</option>
+                                <option value="naver.com">naver.com</option>
+                            </select>
+                        </dd>
+                    </dl>
+                    <dl class="order_info_address_phone">
+                        <dt>연락처 입력</dt>
+                        <dd>
+                            <input type="text" name="uphone_nation" id="uphone_nation" readonly value="82" class="order_info_address_phone_nation">
+                            <input type="text" name="uphone" id="uphone" value="휴대전화(숫자만 입력해 주세요)" class="order_info_address_phone_num" maxlength="20">
+                        </dd>
+                    </dl>
+                    <dl class="order_info_address_off_mail">
+                        <dt>우편번호 입력</dt>
+                        <dd>
+                            <input type="text" name="off_mail_num" id="off_mail_num" readonly value="우편번호">
+                            <button type="button" name="off_mail_search" id="off_mail_search">검색</button>
+                        </dd>
+                    </dl>
+                    <dl class="order_info_address_off_addr">
+                        <dt>주소 입력</dt>
+                        <dd>
+                            <input type="text" name="off_address" id="off_address" readonly value="주소를 입력해 주세요">
+                        </dd>
+                    </dl>
+                    <dl class="order_info_address_det_addr">
+                        <dt>상세주소 입력</dt>
+                        <dd>
+                            <input type="text" name="off_det_address" id="off_det_address" value="상세주소를 입력해 주세요">
+                        </dd>
+                    </dl>
+                    <dl class="order_info_address_memo">
+                        <dt>배송 메모 (0/50자)</dt>
+                        <dd>
+                            <textarea name="delivery_memo" id="delivery_memo" cols="30" rows="10" maxlength="100">주소록 작성란이 아닙니다. 배송 메모만 50자 이내로 작성해 주세요.</textarea>
+                        </dd>
+                    </dl>
+                    <div class="order_info_address_caution">
+                        <p>주소, 상세주소 및 배송메모 작성 시 특수문자 & &lt; &gt; ; 는 제외하고
+                            입력해 주시기 바랍니다.</p>
+                    </div>
+                </div>
+                <div class="order_info_point">
+                    <div class="order_info_point_h">
+                        <h3>포인트 / 쿠폰입력</h3>
+                        <a href="#">안내사항</a>
+                    </div>
+                    <dl class="order_info_point_coup">
+                        <dt>사용이 가능한 쿠폰 :</dt>
+                        <dd>0</dd>
+                        <dd>개</dd>
+                        <button type="button">검색</button>
+                    </dl>
+                    <dl class="order_info_point_save">
+                        <dt>현재 적립된 포인트 :</dt>
+                        <dd>0</dd>
+                        <dd>P</dd>
+                    </dl>
+                    <dl class="order_info_point_possible">
+                        <dt>사용 가능한 포인트 :</dt>
+                        <dd>0</dd>
+                        <dd>P</dd>
+                    </dl>
+                    <dl class="order_info_point_use">
+                        <dt class="hide">포인트 입력</dt>
+                        <input type="text" name="" id="" value="포인트를 입력하세요">
+                        <button type="button">적용</button>
+                    </dl>
+                </div>
             </div>
-            <div class="order_info_point">
-
+            <div class="payment">
+                <h3>결제수단</h3>
+                <input type="radio" name="payment" id="payment" value="kakaopay"><span>kakaopay</span>
+                <input type="radio" name="payment" id="payment" value="신용카드"><span>신용카드</span>
+                <input type="radio" name="payment" id="payment" value="무통장 입금"><span>무통장 입금</span>
+                <input type="radio" name="payment" id="payment" value="실시간 계좌이체"><span>실시간 계좌이체</span>
             </div>
-        </div>
-    </form>
+            <div class="pay_wrap">
+                <div class="pay_terms">
+                    <h3>약관 동의</h3>
+                    <dl class="pay_terms_agree1">
+                        <dt>아래 내용에 모두 동의합니다.</dt>
+                        <dd>
+                            <input type="checkbox" name="pay_terms_agree" id="pay_terms_agree" value="all_agree">
+                        </dd>
+                    </dl>
+                    <dl class="pay_terms_agree2">
+                        <dt>상품 주문 및 배송정보 수집에 동의합니다.<span>(필수)</span></dt>
+                        <dd>
+                            <input type="checkbox" name="pay_terms_agree" id="pay_terms_agree" value="order_agree">
+                        </dd>
+                        <a href="#">자세히보기</a>
+                    </dl>
+                    <dl class="pay_terms_agree3">
+                        <dt>주문할 상품설명에 명시된 내용과 사용조건을 확인하였으며,<br>취소 환불규정에 동의합니다.<span>(필수)</span></dt>
+                        <dd>
+                            <input type="checkbox" name="pay_terms_agree" id="pay_terms_agree" value="item_agree">
+                        </dd>
+                    </dl>
+                </div>
+                <div class="pay_info">
+                    <h3>결제 정보</h3>
+                    <dl class="pay_info_item">
+                        <dt>상품금액</dt>
+                        <dd>25,000 원</dd>
+                    </dl>
+                    <dl class="pay_info_dc">
+                        <dt>할인 금액 (추가내용 쿠폰+포인트)</dt>
+                        <dd>0 원</dd>
+                    </dl>
+                    <dl class="pay_info_logi">
+                        <dt>배송비</dt>
+                        <dd>2,500 원</dd>
+                    </dl>
+                    <dl class="pay_info_total">
+                        <dt>총 결제금액</dt>
+                        <dd>27,500 원</dd>
+                    </dl>
+                </div>
+            </div>
+            <div class="pay_total_wrap">
+                <h3>총 결제예정금액</h3>
+                <dl>
+                    <dt>총 결제예정금액</dt>
+                    <dd>27,500</dd>
+                    <dd>원</dd>
+                </dl>
+                <a href="#">결제하기</a>
+            </div>
+        </form>
     </div>
     <!-- content -->
     <div id="footer">
