@@ -6,6 +6,8 @@ address{font-style:normal}
 body{font-family:"맑은 고딕","돋움",sans-serif,serif;font-size:13px;line-height:1.5;letter-spacing:-0.2px;direction:ltr;box-sizing: border-box}
 input{-moz-appearance: none;appearance: none;border: 0px}
 select{-webkit-appearance: none;-moz-appearance: none;appearance: none;border: 0px;background-color: #ffffff;}
+fieldset, legend, form {margin: 0; padding: 0;border: 0;}
+label {position:absolute;overflow:hidden;clip:rect(0 0 0 0);margin:-1px;width:1px;height:1px}
 /* common */
 .hide{position:absolute;left:-9999px;top:-9999px}
 
@@ -71,7 +73,7 @@ select{-webkit-appearance: none;-moz-appearance: none;appearance: none;border: 0
 
 /* order_info_user */
 .order_info_user {width: 500px;height: 277px;float: left;margin-right: 80px;}
-.order_info_user_h {height: 40px; font-size: 20px;width: 500px;border-bottom: 1px solid #232323}
+.order_info_user_h {height: 40px; font-size: 20px;width: 500px;border-bottom: 1px solid #232323;font-weight: bold;}
 
 .order_info_user_nation {height: 41px;border-bottom: 1px solid #e5e5e5}
 .order_info_user_nation dt {background: url(../images/order_red_star.jpg) no-repeat;width: 5px;height: 5px;text-indent: -9999px;margin-top: 9px;}
@@ -79,11 +81,11 @@ select{-webkit-appearance: none;-moz-appearance: none;appearance: none;border: 0
 
 .order_info_user_name {height: 53px;border-bottom: 1px solid #e5e5e5}
 .order_info_user_name dt {background: url(../images/order_red_star.jpg) no-repeat;width: 5px;height: 5px;text-indent: -9999px;margin-top: 9px;}
-.order_info_user_name input {width: 490px;margin-top: 10px;height: 30px;font-size: 14px;}
+.order_info_user_name input {width: 490px;margin-top: 10px;height: 30px;font-size: 14px;color: #959595}
 
 .order_info_user_mail {height: 53px;border-bottom: 1px solid #e5e5e5}
 .order_info_user_mail dt {background: url(../images/order_red_star.jpg) no-repeat;width: 5px;height: 5px;text-indent: -9999px;margin-top: 9px;}
-.order_info_user_mail input {margin-top: 10px;height: 30px;font-size: 14px;}
+.order_info_user_mail input {margin-top: 10px;height: 30px;font-size: 14px;color: #959595}
 .order_info_user_mail_id {width: 300px;}
 .order_info_user_mail_direct {width: 110px;margin-right: 10px}
 .order_info_user_mail select {width: 40px;background: url(../images/order_select_arrow.jpg) no-repeat right center;font-size: 14px;}
@@ -92,11 +94,11 @@ select{-webkit-appearance: none;-moz-appearance: none;appearance: none;border: 0
 .order_info_user_phone dt {background: url(../images/order_red_star.jpg) no-repeat;width: 5px;height: 5px;text-indent: -9999px;margin-top: 9px;}
 .order_info_user_phone input {margin-top: 10px;height: 30px;font-size: 14px;}
 .order_info_user_phone_nation {width: 69px;}
-.order_info_user_phone_num {width: 300px;}
+.order_info_user_phone_num {width: 300px;color: #959595}
 
 /* order_info_address */
 .order_info_address {width: 500px;height: 590px;float: left;}
-.order_info_address_h {height: 40px; font-size: 20px;width: 500px;border-bottom: 1px solid #232323}
+.order_info_address_h {height: 40px; font-size: 20px;width: 500px;border-bottom: 1px solid #232323;font-weight: bold;}
 
 .order_info_address_nation {height: 41px;border-bottom: 1px solid #e5e5e5}
 .order_info_address_nation dt {background: url(../images/order_red_star.jpg) no-repeat;width: 5px;height: 5px;text-indent: -9999px;margin-top: 9px;}
@@ -104,11 +106,11 @@ select{-webkit-appearance: none;-moz-appearance: none;appearance: none;border: 0
 
 .order_info_address_name {height: 53px;border-bottom: 1px solid #e5e5e5}
 .order_info_address_name dt {background: url(../images/order_red_star.jpg) no-repeat;width: 5px;height: 5px;text-indent: -9999px;margin-top: 9px;}
-.order_info_address_name input {width: 490px;margin-top: 10px;height: 30px;font-size: 14px;}
+.order_info_address_name input {width: 490px;margin-top: 10px;height: 30px;font-size: 14px;color: #959595}
 
 .order_info_address_mail {height: 53px;border-bottom: 1px solid #e5e5e5}
 .order_info_address_mail dt {background: url(../images/order_red_star.jpg) no-repeat;width: 5px;height: 5px;text-indent: -9999px;margin-top: 9px;}
-.order_info_address_mail input {margin-top: 10px;height: 30px;font-size: 14px;}
+.order_info_address_mail input {margin-top: 10px;height: 30px;font-size: 14px;color: #959595}
 .order_info_address_mail_id {width: 300px;}
 .order_info_address_mail_direct {width: 110px;margin-right: 10px}
 .order_info_address_mail select {width: 40px;background: url(../images/order_select_arrow.jpg) no-repeat right center;font-size: 14px;}
@@ -117,60 +119,60 @@ select{-webkit-appearance: none;-moz-appearance: none;appearance: none;border: 0
 .order_info_address_phone dt {background: url(../images/order_red_star.jpg) no-repeat;width: 5px;height: 5px;text-indent: -9999px;margin-top: 9px;}
 .order_info_address_phone input {margin-top: 10px;height: 30px;font-size: 14px;}
 .order_info_address_phone_nation {width: 69px;}
-.order_info_address_phone_num {width: 300px;}
+.order_info_address_phone_num {width: 300px;color: #959595}
 
 .order_info_address_off_mail {height: 53px;border-bottom: 1px solid #e5e5e5}
 .order_info_address_off_mail dt {background: url(../images/order_red_star.jpg) no-repeat;width: 5px;height: 5px;text-indent: -9999px;margin-top: 9px;}
-.order_info_address_off_mail input {width: 410px;margin-top: 10px;height: 30px;font-size: 14px;}
+.order_info_address_off_mail input {width: 410px;margin-top: 10px;height: 30px;font-size: 14px;color: #959595}
 .order_info_address_off_mail button {width: 70px;height: 30px;background: #e5e5e5;font-size: 14px;border-radius: 4px}
 
 .order_info_address_off_addr {height: 53px;border-bottom: 1px solid #e5e5e5}
 .order_info_address_off_addr dt {background: url(../images/order_red_star.jpg) no-repeat;width: 5px;height: 5px;text-indent: -9999px;margin-top: 9px;}
-.order_info_address_off_addr input {width: 490px;margin-top: 10px;height: 30px;font-size: 14px;}
+.order_info_address_off_addr input {width: 490px;margin-top: 10px;height: 30px;font-size: 14px;color: #959595}
 
 .order_info_address_det_addr {height: 53px;border-bottom: 1px solid #e5e5e5;margin-bottom: 20px}
 .order_info_address_det_addr dt {background: url(../images/order_red_star.jpg) no-repeat;width: 5px;height: 5px;text-indent: -9999px;margin-top: 9px;}
-.order_info_address_det_addr input {width: 490px;margin-top: 10px;height: 30px;font-size: 14px;}
+.order_info_address_det_addr input {width: 490px;margin-top: 10px;height: 30px;font-size: 14px;color: #959595}
 
-.order_info_address_memo {height: 95px;margin-bottom: 10px;font-size: 14px;}
-.order_info_address_memo textarea {resize: none;width: 480px;height: 60px;font-size: 14px;}
+.order_info_address_memo {height: 95px;margin-bottom: 10px;font-size: 14px;font-weight: bold;}
+.order_info_address_memo textarea {resize: none;width: 480px;height: 60px;font-size: 14px;color: #959595}
 
-.order_info_address_caution {width: 490px;height: 40px;background: #e5e5e5;font-size: 14px;line-height: 3;text-align: center}
+.order_info_address_caution {width: 490px;height: 40px;background: #e5e5e5;font-size: 14px;line-height: 3;text-align: center;color: #4c4c4c}
 
 /* order_info_point */
 .order_info_point {width: 500px;height: 200px;position: absolute;top: 387px;border-bottom: 1px solid #232323}
 
-.order_info_point_h {height: 40px; font-size: 20px;width: 500px;border-bottom: 1px solid #232323;position: relative;}
-.order_info_point_h h3 {width: 190px; background: url(../images/cart_point.jpg) no-repeat right 0 center;}
-.order_info_point_h a {width: 60px; display: block;background: url(../images/cart_question.jpg) no-repeat left 0;position: absolute;right: 0;top: 10px; font-size: 12px;text-align: right}
+.order_info_point_h {height: 40px; font-size: 20px;font-weight: bold; width: 500px;border-bottom: 1px solid #232323;position: relative;}
+.order_info_point_h legend {width: 170px; background: url(../images/cart_point.jpg) no-repeat right 0 center;}
+.order_info_point_h a {width: 60px; display: block;background: url(../images/cart_question.jpg) no-repeat left 0;position: absolute;right: 0;top: 10px; font-size: 12px;text-align: right;color: #959595}
 
 .order_info_point_coup {height: 49px;border-bottom: 1px solid #e5e5e5;line-height: 49px;font-size: 14px;}
-.order_info_point_coup dt {float: left;margin-right: 10px}
+.order_info_point_coup dt {float: left;margin-right: 10px;color: #959595}
 .order_info_point_coup dd {float: left;margin: 0 5px}
 .order_info_point_coup button {width: 70px;height: 30px;background-color: #e5e5e5;float: right;margin-top: 10px;border-radius: 4px;font-size: 14px;}
 
 .order_info_point_save {font-size: 14px;height: 25px;margin-top: 10px}
-.order_info_point_save dt {float: left;margin-right: 10px}
+.order_info_point_save dt {float: left;margin-right: 10px;color: #959595}
 .order_info_point_save dd {float: left;margin: 0 5px}
 
 .order_info_point_possible {font-size: 14px;height: 18px;}
-.order_info_point_possible dt {float: left;margin-right: 10px}
+.order_info_point_possible dt {float: left;margin-right: 10px;color: #959595}
 .order_info_point_possible dd {float: left;margin: 0 5px}
 
 .order_info_point_use {height: 55px;clear: both;}
-.order_info_point_use input {width: 410px; height: 50px;float: left;font-size: 14px;}
+.order_info_point_use input {width: 410px; height: 50px;float: left;font-size: 14px;color: #959595}
 .order_info_point_use button {width: 70px;height: 30px;background-color: #e5e5e5;float: right;margin-top: 10px;border-radius: 4px;font-size: 14px;}
 
 /* payment */
 .payment {font-size: 20px;width: 1080px;margin: 0 auto 80px}
-.payment h3 {width: 1080px;height: 40px; border-bottom: 1px solid #232323;margin-bottom: 15px}
+.payment legend {font-weight: bold; width: 1080px;height: 40px; border-bottom: 1px solid #232323;margin-bottom: 15px}
 .payment input {width: 20px;height: 20px;}
 .payment span {margin: 0 40px 0 10px}
 
 /* pay_wrap */
 .pay_wrap {width: 1080px;height: 230px; margin: 0 auto 40px;border-bottom: 1px solid #232323;}
 .pay_terms {float: left;margin-right: 80px}
-.pay_terms h3 {font-size: 20px;height: 40px;width: 500px;border-bottom: 1px solid #232323;margin-bottom: 15px}
+.pay_terms legend {font-size: 20px;font-weight: bold; height: 40px;width: 500px;border-bottom: 1px solid #232323;margin-bottom: 15px}
 
 .pay_terms_agree1 {width: 500px; height: 45px;border-bottom: 1px solid #e5e5e5;font-size: 14px;line-height: 2.5;}
 .pay_terms_agree1 dt {float: left;}
@@ -194,20 +196,20 @@ select{-webkit-appearance: none;-moz-appearance: none;appearance: none;border: 0
 .pay_info h3 {font-size: 20px;height: 40px;width: 500px;border-bottom: 1px solid #232323;margin-bottom: 15px}
 
 .pay_info_item {height: 45px;border-bottom: 1px solid #e5e5e5;font-size: 14px;}
-.pay_info_item dt {float: left;}
-.pay_info_item dd {float: right;}
+.pay_info_item dt {float: left;color: #959595}
+.pay_info_item dd {float: right;font-weight: bold;}
 
 .pay_info_dc {height: 50px;border-bottom: 1px solid #e5e5e5;font-size: 14px;line-height: 50px;}
-.pay_info_dc dt {float: left;}
-.pay_info_dc dd {float: right;}
+.pay_info_dc dt {float: left;color: #959595}
+.pay_info_dc dd {float: right;font-weight: bold;}
 
 .pay_info_logi {height: 25px;font-size: 14px;}
-.pay_info_logi dt {float: left;}
-.pay_info_logi dd {float: right;}
+.pay_info_logi dt {float: left;color: #959595}
+.pay_info_logi dd {float: right;font-weight: bold;}
 
 .pay_info_total {height: 25px;font-size: 14px;}
-.pay_info_total dt {float: left;}
-.pay_info_total dd {float: right;}
+.pay_info_total dt {float: left;color: #959595}
+.pay_info_total dd {float: right;font-weight: bold;}
 
 /* pay_total_wrap */
 .pay_total_wrap {width: 1080px;height: 240px;margin: auto;position: relative;}
@@ -215,7 +217,7 @@ select{-webkit-appearance: none;-moz-appearance: none;appearance: none;border: 0
 .pay_total_wrap dl {position: absolute;right: 0;}
 .pay_total_wrap dt {position: absolute;left: -9999px;right: -9999px;}
 .pay_total_wrap dd {float: left;font-size: 30px;font-weight: bold;}
-.pay_total_wrap a {display: block;width: 500px;height: 60px;background-color: #ffde00;color: #fff;text-align: center;position: absolute;right: 0;top: 90px;font-size: 20px;font-weight: bold;line-height: 60px;}
+.pay_total_wrap .pay_btn {display: block;width: 500px;height: 60px;background-color: #ffde00;color: #fff;text-align: center;position: absolute;right: 0;top: 90px;font-size: 20px;font-weight: bold;line-height: 60px;}
 
 
 

@@ -5,7 +5,7 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
     <title>KAKAO FRIENDS GOLF SHOP</title>
-    <link rel="stylesheet" type="text/css" href="css/style_order.css" />
+    <link rel="stylesheet" type="text/css" href="../git/css/style_order.css" />
     <link href='http://fonts.googleapis.com/css?family=Noto+Sans' rel='stylesheet' type='text/css' />
 </head>
 
@@ -70,7 +70,7 @@
             <div class="main_txt">
                 <h2>비회원 주문하기</h2>
                 <span>비회원 주문하기</span>
-                <p>Order & Shipping Information</p>
+                <p>Order &amp; Shipping Information</p>
             </div>
         </div>
         <form action="">
@@ -100,14 +100,15 @@
                 </div>
             </div>
             <div class="order_info">
-                <div class="order_info_user">
+                <fieldset class="order_info_user">
                     <div class="order_info_user_h">
-                        <h3>주문자 정보</h3>
+                    <legend>주문자 정보</legend>
                     </div>
                     <dl class="order_info_user_nation">
                         <dt>국가 선택</dt>
                         <dd>
-                            <select name="unation" id="unation">
+                            <label for="u_nation">국가</label>
+                            <select name="u_nation" id="u_nation">
                                 <option value="korea">한국</option>
                                 <option value="japan">일본</option>
                                 <option value="china">중국</option>
@@ -117,15 +118,17 @@
                     <dl class="order_info_user_name">
                         <dt>이름 입력</dt>
                         <dd>
-                            <input type="text" name="uname" id="uname" value="이름" maxlength="100">
+                            <label for="u_name">이름</label>
+                            <input type="text" name="u_name" id="u_name" value="이름" maxlength="100">
                         </dd>
                     </dl>
                     <dl class="order_info_user_mail">
                         <dt>이메일 입력</dt>
                         <dd>
-                            <input type="text" name="umail_id" id="umail_id" value="아이디(이메일)입력" class="order_info_user_mail_id" maxlength="20">@
-                            <input type="text" name="umail_txt" id="umail_txt" value="직접입력" class="order_info_user_mail_direct" maxlength="20">
-                            <select name="umail_select" id="umail_select">
+                            <label for="u_mail_id">이메일</label>
+                            <input type="text" name="u_mail_id" id="u_mail_id" value="아이디(이메일)입력" class="order_info_user_mail_id" maxlength="20">@
+                            <input type="text" name="u_mail_dns" id="u_mail_dns" value="직접입력" class="order_info_user_mail_direct" maxlength="20">
+                            <select name="u_sel_dns" id="u_sel_dns">
                                 <option value="">선택</option>
                                 <option value="daum.net">daum.net</option>
                                 <option value="naver.com">naver.com</option>
@@ -135,20 +138,22 @@
                     <dl class="order_info_user_phone">
                         <dt>연락처 입력</dt>
                         <dd>
-                            <input type="text" name="uphone_nation" id="uphone_nation" readonly value="82" class="order_info_user_phone_nation">
-                            <input type="text" name="uphone" id="uphone" value="휴대전화(숫자만 입력해 주세요)" class="order_info_user_phone_num" maxlength="20">
+                            <label for="u_phone">연락처</label>
+                            <input type="text" name="u_phone_nation" id="u_phone_nation" readonly value="82" class="order_info_user_phone_nation">
+                            <input type="text" name="u_phone" id="u_phone" value="휴대전화(숫자만 입력해 주세요)" class="order_info_user_phone_num" maxlength="20">
                         </dd>
                     </dl>
-                </div>
+                </fieldset>
                 <!-- order_info_user -->
-                <div class="order_info_address">
+                <fieldset class="order_info_address">
                     <div class="order_info_address_h">
-                        <h3>배송지 정보</h3>
+                    <legend>배송지 정보</legend>
                     </div>
                     <dl class="order_info_address_nation">
                         <dt>국가 선택</dt>
                         <dd>
-                            <select name="unation" id="unation">
+                            <label for="addr_nation">국가</label>
+                            <select name="addr_nation" id="addr_nation">
                                 <option value="korea">한국</option>
                                 <option value="japan">일본</option>
                                 <option value="china">중국</option>
@@ -158,15 +163,17 @@
                     <dl class="order_info_address_name">
                             <dt>이름 입력</dt>
                             <dd>
-                                <input type="text" name="uname" id="uname" value="이름" maxlength="100">
+                                <label for="addr_name">이름</label>
+                                <input type="text" name="addr_name" id="addr_name" value="이름" maxlength="100">
                             </dd>
                         </dl>
                     <dl class="order_info_address_mail">
                         <dt>이메일 입력</dt>
                         <dd>
-                            <input type="text" name="umail_id" id="umail_id" value="아이디(이메일)입력" class="order_info_address_mail_id" maxlength="20">@
-                            <input type="text" name="umail_txt" id="umail_txt" value="직접입력" class="order_info_address_mail_direct" maxlength="20">
-                            <select name="umail_select" id="umail_select">
+                            <label for="addr_mail_id">이메일</label>
+                            <input type="text" name="addr_mail_id" id="addr_mail_id" value="아이디(이메일)입력" class="order_info_address_mail_id" maxlength="20">@
+                            <input type="text" name="addr_mail_dns" id="addr_mail_dns" value="직접입력" class="order_info_address_mail_direct" maxlength="20">
+                            <select name="addr_sel_dns" id="addr_sel_dns">
                                 <option value="">선택</option>
                                 <option value="daum.net">daum.net</option>
                                 <option value="naver.com">naver.com</option>
@@ -176,32 +183,37 @@
                     <dl class="order_info_address_phone">
                         <dt>연락처 입력</dt>
                         <dd>
-                            <input type="text" name="uphone_nation" id="uphone_nation" readonly value="82" class="order_info_address_phone_nation">
-                            <input type="text" name="uphone" id="uphone" value="휴대전화(숫자만 입력해 주세요)" class="order_info_address_phone_num" maxlength="20">
+                            <label for="addr_phone">연락처</label>
+                            <input type="text" name="addr_phone_nation" id="addr_phone_nation" readonly value="82" class="order_info_address_phone_nation">
+                            <input type="text" name="addr_phone" id="addr_phone" value="휴대전화(숫자만 입력해 주세요)" class="order_info_address_phone_num" maxlength="20">
                         </dd>
                     </dl>
                     <dl class="order_info_address_off_mail">
                         <dt>우편번호 입력</dt>
                         <dd>
-                            <input type="text" name="off_mail_num" id="off_mail_num" readonly value="우편번호">
-                            <button type="button" name="off_mail_search" id="off_mail_search">검색</button>
+                            <label for="zipcode">우편번호</label>
+                            <input type="text" name="zipcode" id="zipcode" readonly value="우편번호">
+                            <button type="button" name="zipcode_btn" id="zipcode_btn">검색</button>
                         </dd>
                     </dl>
                     <dl class="order_info_address_off_addr">
                         <dt>주소 입력</dt>
                         <dd>
-                            <input type="text" name="off_address" id="off_address" readonly value="주소를 입력해 주세요">
+                            <label for="addr1">기본주소</label>
+                            <input type="text" name="addr1" id="addr1" readonly value="주소를 입력해 주세요">
                         </dd>
                     </dl>
                     <dl class="order_info_address_det_addr">
                         <dt>상세주소 입력</dt>
                         <dd>
-                            <input type="text" name="off_det_address" id="off_det_address" value="상세주소를 입력해 주세요">
+                            <label for="addr2">상세주소</label>
+                            <input type="text" name="addr2" id="addr2" value="상세주소를 입력해 주세요">
                         </dd>
                     </dl>
                     <dl class="order_info_address_memo">
                         <dt>배송 메모 (0/50자)</dt>
                         <dd>
+                            <label for="delivery_memo">배송 메모</label>
                             <textarea name="delivery_memo" id="delivery_memo" cols="30" rows="10" maxlength="100">주소록 작성란이 아닙니다. 배송 메모만 50자 이내로 작성해 주세요.</textarea>
                         </dd>
                     </dl>
@@ -209,10 +221,11 @@
                         <p>주소, 상세주소 및 배송메모 작성 시 특수문자 & &lt; &gt; ; 는 제외하고
                             입력해 주시기 바랍니다.</p>
                     </div>
-                </div>
+                </fieldset>
                 <div class="order_info_point">
+                    <fieldset>
                     <div class="order_info_point_h">
-                        <h3>포인트 / 쿠폰입력</h3>
+                        <legend>포인트 / 쿠폰입력</legend>
                         <a href="#">안내사항</a>
                     </div>
                     <dl class="order_info_point_coup">
@@ -233,40 +246,53 @@
                     </dl>
                     <dl class="order_info_point_use">
                         <dt class="hide">포인트 입력</dt>
-                        <input type="text" name="" id="" value="포인트를 입력하세요">
+                        <label for="point">포인트</label>
+                        <input type="text" name="point" id="point" value="포인트 입력">
                         <button type="button">적용</button>
                     </dl>
+                    </fieldset>
                 </div>
             </div>
             <div class="payment">
-                <h3>결제수단</h3>
-                <input type="radio" name="payment" id="payment" value="kakaopay"><span>kakaopay</span>
-                <input type="radio" name="payment" id="payment" value="신용카드"><span>신용카드</span>
-                <input type="radio" name="payment" id="payment" value="무통장 입금"><span>무통장 입금</span>
-                <input type="radio" name="payment" id="payment" value="실시간 계좌이체"><span>실시간 계좌이체</span>
+                <fieldset>
+                <legend>결제수단</legend>
+                    <label for="payment_kakao">카카오페이</label>
+                        <input type="radio" name="payment" id="payment_kakao" value="kakaopay"><span>kakaopay</span>
+                    <label for="payment_credit">신용카드</label>
+                        <input type="radio" name="payment" id="payment_credit" value="credit"><span>신용카드</span>
+                    <label for="payment_deposit">무통장 입금</label>
+                        <input type="radio" name="payment" id="payment_deposit" value="deposit"><span>무통장 입금</span>
+                    <label for="payment_real_time">실시간 계좌이체</label>
+                        <input type="radio" name="payment" id="payment_real_time" value="real_time"><span>실시간 계좌이체</span>
+                </fieldset>
             </div>
             <div class="pay_wrap">
                 <div class="pay_terms">
-                    <h3>약관 동의</h3>
+                    <fieldset>
+                    <legend>약관 동의</legend>
                     <dl class="pay_terms_agree1">
                         <dt>아래 내용에 모두 동의합니다.</dt>
                         <dd>
-                            <input type="checkbox" name="pay_terms_agree" id="pay_terms_agree" value="all_agree">
+                            <label for="t_apply">모두 동의</label>
+                            <input type="checkbox" name="t_apply" id="t_apply" value="all_agree">
                         </dd>
                     </dl>
                     <dl class="pay_terms_agree2">
                         <dt>상품 주문 및 배송정보 수집에 동의합니다.<span>(필수)</span></dt>
                         <dd>
-                            <input type="checkbox" name="pay_terms_agree" id="pay_terms_agree" value="order_agree">
+                            <label for="t_apply1">주문 및 배송정보 동의</label>
+                            <input type="checkbox" name="t_apply1" id="t_apply1" value="order_agree">
                         </dd>
                         <a href="#">자세히보기</a>
                     </dl>
                     <dl class="pay_terms_agree3">
                         <dt>주문할 상품설명에 명시된 내용과 사용조건을 확인하였으며,<br>취소 환불규정에 동의합니다.<span>(필수)</span></dt>
                         <dd>
-                            <input type="checkbox" name="pay_terms_agree" id="pay_terms_agree" value="item_agree">
+                            <label for="t_apply2">취소 및 환불규정 동의</label>
+                            <input type="checkbox" name="t_apply2" id="t_apply2" value="item_agree">
                         </dd>
                     </dl>
+                    </fieldset>
                 </div>
                 <div class="pay_info">
                     <h3>결제 정보</h3>
@@ -295,7 +321,7 @@
                     <dd>27,500</dd>
                     <dd>원</dd>
                 </dl>
-                <a href="#">결제하기</a>
+                <button type="button" class="pay_btn">결제하기</button>
             </div>
         </form>
     </div>

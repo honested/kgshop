@@ -1,10 +1,11 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ko">
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ko">
 
 <head>
-    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
     <title>KAKAO FRIENDS GOLF SHOP</title>
-    <link rel="stylesheet" type="text/css" href="css/style_cart.css" />
+    <link rel="stylesheet" type="text/css" href="css/style_login.css" />
     <link href='http://fonts.googleapis.com/css?family=Noto+Sans' rel='stylesheet' type='text/css' />
 </head>
 
@@ -40,7 +41,8 @@
             <h2 class="hide">사용자메뉴</h2>
             <ul>
                 <li><a href="#"><img src="../git/images/search.png" alt="상품검색" /><span class="hide">상품검색</span></a></li>
-                <li><a href="cart.html"><img src="../git/images/shopping-cart.png" alt="장바구니" /> <span class="hide">장바구니</span></a></li>
+                <li><a href="cart.html"><img src="../git/images/shopping-cart.png" alt="장바구니" /> <span
+                            class="hide">장바구니</span></a></li>
                 <li><a href="#"><img src="../git/images/user-plus.png" alt="로그인" /> <span class="hide">로그인</span></a>
                     <ul>
                         <li><a href="#">로그인</a></li>
@@ -56,71 +58,60 @@
         </div>
         <!--top_menu-->
         <!--<div class="ban_top">
-                        <dl>
-                            <dt class="hide">포인트 이벤트</dt>
-                            <dd><a href="#">지금 1000포인트 즉시 지급! 포인트 2배 적립!</a></dd>
-                        </dl>
-                    </div>-->
+                <dl>
+                    <dt class="hide">포인트 이벤트</dt>
+                    <dd><a href="#">지금 1000포인트 즉시 지급! 포인트 2배 적립!</a></dd>
+                </dl>
+            </div>-->
         <!--ban_top-->
     </div>
     <!--header-->
     <div id="content">
-        <div class="main_image">
-            <h2 class="hide">장바구니</h2>
-            <a href="#">장바구니</a>
-        </div>
-        <div class="cart_top">
-            <p>총 1개의 상품이 조회되었습니다.</p>
-            <a href="#">선택 삭제하기</a>
-        </div>
-        <div class="cart_cont">
-            <div class="cart_info">
+        <div class="login_top">
+            <div class="top_cont">
+                <h2>KAKAO 로그인</h2>
                 <ul>
-                    <li class="cart_info1">
-                        <input type="checkbox" name="cart_chk1" id="cart_chk1">
-                            <label for="cart_chk1">전체선택</label>
-                        </input>
-                    </li>
-                    <li class="cart_info2">상품명</li>
-                    <li class="cart_info3">배송비</li>
-                    <li class="cart_info4">수량</li>
-                    <li class="cart_info5">상품금액</li>
+                    <li class="login_help"><a href="#">도움말</a></li>
+                    <li><a href="#">문의하기</a></li>
                 </ul>
             </div>
-            <div class="cart_item">
+        </div>
+        <!-- login_top -->
+        <div class="login_cont_wrap">
+            <div class="login_cont">
                 <ul>
-                    <li class="cart_item1">
-                        <input type="checkbox" name="cart_chk2" id="cart_chk2">
-                            <label for="cart_chk2"><span class="hide">상품선택</span></label>
-                        </input>
-                    </li>
-                    <li class="cart_item2"><a href="#"><img src="images/cart_callaway_ball.jpg" alt="카카오 라이언 X 캘러웨이 볼 패키지 R4"><span>카카오 라이언 X 캘러웨이 볼 패키지 R4</span></a></li>
-                    <li class="cart_item3">2,500원</li>
-                    <li class="cart_item4">
-                        <form class="item_value">
-                            <label for="item_value" class="hide">현재수량</label>
-                            <input type="text" id="item_value" name="item_value" value="1" readonly>
-                            <button type="button" name="item_value_btn" id="item_value_btn" value="value_up" class="btn_up"><span class="hide">수량추가</span></button>
-                            <button type="button" name="item_value_btn" id="item_value_btn" value="value_down" class="btn_down"><span class="hide">수량빼기</span></button>
-                            <button type="button" name="item_value_btn" id="item_value_btn" value="value_change" class="btn_value_change">수량변경</button>
+                    <li class="cont_info">자주쓰는 이메일을 등록하여 다양한 카카오 서비스를 이용해보세요!</li>
+                    <li class="cont_login">
+                        <form action="">
+                            <legend>KAKAO 로그인</legend>
+                            <fieldset>
+                                <label for="email_phone" class="email_phone_help"><span>이메일 또는 전화번호</span></label>
+                                <input type="text" name="email_phone" id="email_phone" value="이메일 또는 전화번호">
+                                <label for="pwd" class="login_label">비밀번호</label>
+                                <input type="text" name="pwd" id="pwd" value="비밀번호">
+                                <label for="keep_login" class="login_label">로그인 상태유지</label>
+                                <input type="checkbox" name="keep_login" id="keep_login">로그인 상태 유지
+                                <label for="btn_login" class="login_label">로그인</label>
+                                <button type="button" name="btn_login" id="btn_login"><span>로그인</span></button>
+                            </fieldset>
                         </form>
+                        <ul>
+                            <li class="join"><a href="#">회원가입</a></li>
+                            <li class="serch_acc"><a href="#">카카오 계정찾기</a></li>
+                            <li class="re_pwd"><a href="#">비밀번호 재설정</a></li>
+                        </ul>
                     </li>
-                    <li class="cart_item5">25,000원</li>
                 </ul>
             </div>
         </div>
-        <div class="cart_price">
-            <ul>
-                <li class="cart_price_amount"><span>상품금액</span><p>25,000</p>원</li>
-                <li class="cart_price_charge"><span>배송비</span><p>2,500</p>원</li>
-                <li class="cart_price_pay"><span>결제예정금액</span><p>27,500</p>원</li>
-            </ul>
-            <div class="plus"></div>
-            <div class="minus"></div>
+        <!-- login_cont_wrap -->
+        <div class="login_cont_bot">
+            <a href="#">공지사항</a>
+            <a href="#">이용약관</a>
+            <a href="#">개인정보처리방침</a>
+            <a href="#">운영정책</a>
+            <p>Copyright@Kakao Corp. All rights reserved.</p>
         </div>
-        <div class="order_button">
-        <a href="order.html">주문하기</a>
-    </div>
     </div>
     <!--content-->
     <div id="footer">
@@ -151,10 +142,8 @@
                 <p>Copyright KAKAO FRIENDS GOLF SHOP All right reserved</p>
             </div>
         </div>
-    </div> -->
+    </div>
     <!--footer-->
-
-
 </body>
 
 </html>
