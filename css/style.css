@@ -14,6 +14,17 @@ body{font-family:"맑은 고딕","돋움",sans-serif,serif;font-size:13px;line-h
 #skipMenu a:active, #skipMenu a:focus{top:0;z-index:1000;text-decoration:none}
 #skipMenu span{display:inline-block;padding:2px 6px 0 0;color:#fff;letter-spacing:-1px;font-size:13px;line-height:26px}
 
+/* ban_top*/
+.ban_top {background: #232323;height: 60px;overflow: hidden;position: absolute;width: 100%;}
+.ban_top dl {width: 1080px;margin: auto;position: relative;}
+.ban_top dd {background: url(../images/top_banner.png) no-repeat;width: 1079px;height: 60px;}
+.ban_top a {display: block;width: 1080px;height: 60px;}
+.ban_top span {font-size: 30px;color: #fff;position: absolute;right: 230px;top: 0; padding: 10px; display: block;width: 40px;height: 40px;cursor: pointer;}
+
+/* wrap */
+.wrap {position: relative;top: 60px;}
+.header_wrap {background: #fff}
+
 /* header */
 #header {font-size: 18px;font-weight: normal;height: 80px;width: 1080px;position: relative;margin: auto;}
 #header h1 {position: absolute;left: 0px;top: 15px;}
@@ -39,9 +50,6 @@ body{font-family:"맑은 고딕","돋움",sans-serif,serif;font-size:13px;line-h
 .top_menu ul ul {display: none;position: absolute;top: 100%;z-index: 5;}
 .top_menu li:hover ul {display: block;width: 140px;border: 1px solid #222;left: -95px;top: 55px; border-radius: 5px;background-color: #fff}
 .top_menu li:hover ul li {display: block;text-align: center;}
-
-/* ban_top */
-.ban_top {display: none;}
 
 /* ban_main */
 .ban_main {background: url(../images/welcome-2019.jpg) no-repeat;text-indent: -9999px;background-position: center; background-color: #ff3241;}

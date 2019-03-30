@@ -1,11 +1,14 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="ko">
 
 <head>
-    <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
     <title>KAKAO FRIENDS GOLF SHOP</title>
     <link rel="stylesheet" type="text/css" href="css/style.css" />
     <link href='http://fonts.googleapis.com/css?family=Noto+Sans' rel='stylesheet' type='text/css' />
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/index.js"></script>
 </head>
 
 <body>
@@ -15,167 +18,178 @@
         <a href="#"><span>메뉴 바로가기</span></a>
     </div>
     <!--skipMenu-->
-    <div id="header">
-        <h1><a href="index.html">카카오 프렌즈 골프샵</a></h1>
-        <div class="gnb">
-            <h2 class="hide"><a href="#">주요메뉴</a></h2>
-            <ul>
-                <li><a href="#">카테고리</a>
+    <div class="ban_top">
+        <dl>
+            <dt class="hide">포인트 이벤트</dt>
+            <dd>
+                <a href="top_banner.html">지금 1000포인트 즉시 지급! 포인트 2배 적립!</a>
+            </dd>
+        </dl>
+        <span>&times;</span>
+    </div>
+    <!-- ban_top -->
+    <div class="wrap">
+        <div class="header_wrap">
+            <div id="header">
+                <h1><a href="index.html">카카오 프렌즈 골프샵</a></h1>
+                <div class="gnb">
+                    <h2 class="hide"><a href="#">주요메뉴</a></h2>
                     <ul>
-                        <li><a href="callaway.html">캘러웨이</a></li>
-                        <li><a href="volvik.html">볼빅</a></li>
+                        <li><a href="#">카테고리</a>
+                            <ul>
+                                <li><a href="callaway.html">캘러웨이</a></li>
+                                <li><a href="volvik.html">볼빅</a></li>
+                                <li><a href="new_item.html">신상품</a></li>
+                                <li><a href="best_item.html">베스트</a></li>
+                                <li><a href="accessory.html">악세사리</a></li>
+                            </ul>
+                        </li>
                         <li><a href="new_item.html">신상품</a></li>
                         <li><a href="best_item.html">베스트</a></li>
-                        <li><a href="accessory.html">악세사리</a></li>
+                        <li><a href="kakaovx.html">카카오VX</a></li>
+                        <li><a href="help.html">고객센터</a></li>
                     </ul>
-                </li>
-                <li><a href="new_item.html">신상품</a></li>
-                <li><a href="best_item.html">베스트</a></li>
-                <li><a href="kakaovx.html">카카오VX</a></li>
-                <li><a href="help.html">고객센터</a></li>
-            </ul>
-        </div>
-        <!--gnb-->
-        <div class="top_menu">
-            <h2 class="hide">사용자메뉴</h2>
-            <ul>
-                <li><a href="#"><img src="../git/images/search.png" alt="상품검색" /><span class="hide">상품검색</span></a></li>
-                <li><a href="cart.html"><img src="../git/images/shopping-cart.png" alt="장바구니" /> <span class="hide">장바구니</span></a></li>
-                <li><a href="#"><img src="../git/images/user-plus.png" alt="로그인" /> <span class="hide">로그인</span></a>
+                </div>
+                <!--gnb-->
+                <div class="top_menu">
+                    <h2 class="hide">사용자메뉴</h2>
                     <ul>
-                        <li><a href="#">로그인</a></li>
-                        <li><a href="#">주문내역</a></li>
-                        <li><a href="#">찜</a></li>
-                        <li><a href="#">취소 및 교환</a></li>
-                        <li><a href="#">포인트</a></li>
-                        <li><a href="#">쿠폰</a></li>
-                        <li><a href="#">비회원 주문조회</a></li>
+                        <li><a href="#"><img src="../git/images/search.png" alt="상품검색" /><span
+                                    class="hide">상품검색</span></a></li>
+                        <li><a href="cart.html"><img src="../git/images/shopping-cart.png" alt="장바구니" /> <span
+                                    class="hide">장바구니</span></a></li>
+                        <li><a href="#"><img src="../git/images/user-plus.png" alt="로그인" /> <span
+                                    class="hide">로그인</span></a>
+                            <ul>
+                                <li><a href="#">로그인</a></li>
+                                <li><a href="#">주문내역</a></li>
+                                <li><a href="#">찜</a></li>
+                                <li><a href="#">취소 및 교환</a></li>
+                                <li><a href="#">포인트</a></li>
+                                <li><a href="#">쿠폰</a></li>
+                                <li><a href="#">비회원 주문조회</a></li>
+                            </ul>
+                        </li>
                     </ul>
-                </li>
-            </ul>
+                </div>
+                <!--top_menu-->
+            </div>
         </div>
-        <!--top_menu-->
-        <!--<div class="ban_top">
+        <!--header-->
+        <div id="content">
+            <div class="ban_main">
+                <h2 class="hide">메인 이벤트</h2>
+                <a href="#">2019년맞이 80%할인</a>
+            </div>
+            <!--ban_main-->
+            <div class="recom_item">
+                <div class="recom_item_title">
+                    <h2><span>추천 친구들</span></h2>
+                </div>
+                <ul>
+                    <li class="recom_item1"><a href="#"></a>
+                        <div>카카오 라이언 X 캘러웨이 볼 세트</div><span>25,000원</span>
+                    </li>
+                    <li class="recom_item2"><a href="#"></a>
+                        <div>카카오 라이언 X 캘러웨이 볼 세트</div><span>25,000원</span>
+                    </li>
+                    <li class="recom_item3"><a href="#"></a>
+                        <div>카카오 라이언 X 캘러웨이 볼 세트</div><span>25,000원</span>
+                    </li>
+                </ul>
+                <a href="#" class="recom_item_prev">이전상품보기</a>
+                <a href="#" class="recom_item_next">다음상품보기</a>
+            </div>
+            <!--recom_item-->
+            <div class="new_item">
+                <div class="new_item_title">
+                    <h2><span>새로나온 친구들</span></h2>
+                </div>
+                <ul class="new_item_list">
+                    <li class="new_item_big"><a href="#">카카오 라이언 X 캘러웨이 볼 세트 25,000원</a></li>
+                    <li class="new_item_item2"><a href="#"></a>
+                        <div>카카오 라이언 X 캘러웨이 볼 세트</div><span>25,000원</span>
+                    </li>
+                    <li class="new_item_item3"><a href="#"></a>
+                        <div>카카오 라이언 X 캘러웨이 볼 세트</div><span>25,000원</span>
+                    </li>
+                    <li class="new_item_item4"><a href="#"></a>
+                        <div>카카오 라이언 X 캘러웨이 볼 세트</div><span>25,000원</span>
+                    </li>
+                    <li class="new_item_item5"><a href="#"></a>
+                        <div>카카오 라이언 X 캘러웨이 볼 세트</div><span>25,000원</span>
+                    </li>
+                    <li class="new_item_item6"><a href="#"></a>
+                        <div>카카오 라이언 X 캘러웨이 볼 세트</div><span>25,000원</span>
+                    </li>
+                </ul>
+            </div>
+            <!--new_item-->
+            <div class="ban_kakaovx">
                 <dl>
-                    <dt class="hide">포인트 이벤트</dt>
-                    <dd><a href="#">지금 1000포인트 즉시 지급! 포인트 2배 적립!</a></dd>
+                    <dt class="hide">카카오VX 대회 홍보</dt>
+                    <dd><a href="#">카카오VX 챔피언십 상반기 상금규모 총 1억원</a></dd>
                 </dl>
-            </div>-->
-        <!--ban_top-->
-    </div>
-    <!--header-->
-    <div id="content">
-        <div class="ban_main">
-            <h2 class="hide">메인 이벤트</h2>
-            <a href="#">2019년맞이 80%할인</a>
-        </div>
-        <!--ban_main-->
-        <div class="recom_item">
-            <div class="recom_item_title">
-                <h2><span>추천 친구들</span></h2>
             </div>
-            <ul>
-                <li class="recom_item1"><a href="#"></a>
-                    <div>카카오 라이언 X 캘러웨이 볼 세트</div><span>25,000원</span>
-                </li>
-                <li class="recom_item2"><a href="#"></a>
-                    <div>카카오 라이언 X 캘러웨이 볼 세트</div><span>25,000원</span>
-                </li>
-                <li class="recom_item3"><a href="#"></a>
-                    <div>카카오 라이언 X 캘러웨이 볼 세트</div><span>25,000원</span>
-                </li>
-            </ul>
-            <a href="#" class="recom_item_prev">이전상품보기</a>
-            <a href="#" class="recom_item_next">다음상품보기</a>
-        </div>
-        <!--recom_item-->
-        <div class="new_item">
-            <div class="new_item_title">
-                <h2><span>새로나온 친구들</span></h2>
-            </div>
-            <ul class="new_item_list">
-                <li class="new_item_big"><a href="#">카카오 라이언 X 캘러웨이 볼 세트 25,000원</a></li>
-                <li class="new_item_item2"><a href="#"></a>
-                    <div>카카오 라이언 X 캘러웨이 볼 세트</div><span>25,000원</span>
-                </li>
-                <li class="new_item_item3"><a href="#"></a>
-                    <div>카카오 라이언 X 캘러웨이 볼 세트</div><span>25,000원</span>
-                </li>
-                <li class="new_item_item4"><a href="#"></a>
-                    <div>카카오 라이언 X 캘러웨이 볼 세트</div><span>25,000원</span>
-                </li>
-                <li class="new_item_item5"><a href="#"></a>
-                    <div>카카오 라이언 X 캘러웨이 볼 세트</div><span>25,000원</span>
-                </li>
-                <li class="new_item_item6"><a href="#"></a>
-                    <div>카카오 라이언 X 캘러웨이 볼 세트</div><span>25,000원</span>
-                </li>
-            </ul>
-        </div>
-        <!--new_item-->
-        <div class="ban_kakaovx">
-            <dl>
-                <dt class="hide">카카오VX 대회 홍보</dt>
-                <dd><a href="#">카카오VX 챔피언십 상반기 상금규모 총 1억원</a></dd>
-            </dl>
-        </div>
-        <!--ban_kakaovx-->
-        <div class="best_item">
-            <div class="best_item_title">
-                <h2><span>베스트 친구들</span></h2>
-            </div>
-            <ul class="best_item_list">
-                <li class="best_item_big"><a href="#">카카오 라이언 X 캘러웨이 볼 세트 25,000원</a></li>
-                <li class="best_item_item2"><a href="#"></a>
-                    <div>카카오 라이언 X 캘러웨이 볼 세트</div><span>25,000원</span>
-                </li>
-                <li class="best_item_item3"><a href="#"></a>
-                    <div>카카오 라이언 X 캘러웨이 볼 세트</div><span>25,000원</span>
-                </li>
-                <li class="best_item_item4"><a href="#"></a>
-                    <div>카카오 라이언 X 캘러웨이 볼 세트</div><span>25,000원</span>
-                </li>
-                <li class="best_item_item5"><a href="#"></a>
-                    <div>카카오 라이언 X 캘러웨이 볼 세트</div><span>25,000원</span>
-                </li>
-                <li class="best_item_item6"><a href="#"></a>
-                    <div>카카오 라이언 X 캘러웨이 볼 세트</div><span>25,000원</span>
-                </li>
-            </ul>
-        </div>
-        <!--best_item-->
-    </div>
-    <!--content-->
-    <div id="footer">
-        <div class="footer_wrap">
-            <h2>사이트 이용안내</h2>
-            <div class="terms">
-                <h3 class="hide">약관 및 정책</h3>
-                <ul>
-                    <li><a href="#">개인정보 처리방침</a></li>
-                    <li><a href="#">이용약관</a></li>
-                    <li><a href="#">제휴문의</a></li>
+            <!--ban_kakaovx-->
+            <div class="best_item">
+                <div class="best_item_title">
+                    <h2><span>베스트 친구들</span></h2>
+                </div>
+                <ul class="best_item_list">
+                    <li class="best_item_big"><a href="#">카카오 라이언 X 캘러웨이 볼 세트 25,000원</a></li>
+                    <li class="best_item_item2"><a href="#"></a>
+                        <div>카카오 라이언 X 캘러웨이 볼 세트</div><span>25,000원</span>
+                    </li>
+                    <li class="best_item_item3"><a href="#"></a>
+                        <div>카카오 라이언 X 캘러웨이 볼 세트</div><span>25,000원</span>
+                    </li>
+                    <li class="best_item_item4"><a href="#"></a>
+                        <div>카카오 라이언 X 캘러웨이 볼 세트</div><span>25,000원</span>
+                    </li>
+                    <li class="best_item_item5"><a href="#"></a>
+                        <div>카카오 라이언 X 캘러웨이 볼 세트</div><span>25,000원</span>
+                    </li>
+                    <li class="best_item_item6"><a href="#"></a>
+                        <div>카카오 라이언 X 캘러웨이 볼 세트</div><span>25,000원</span>
+                    </li>
                 </ul>
             </div>
-            <!--terms-->
-            <div class="social_link">
-                <h2 class="hide">소셜공유</h2>
-                <ul>
-                    <li class="instar"><a href="#">인스타그램</a></li>
-                    <li class="facebook"><a href="#">페이스북</a></li>
-                </ul>
-            </div>
-            <!--social_link-->
-            <div class="address">
-                <address>주소 : 서울시 강남구</address>
-                <p>대표번호 :</p>
-                <p>대표이사 :</p>
-                <p>통신판매업 신고번호 :</p>
-                <p>Copyright KAKAO FRIENDS GOLF SHOP All right reserved</p>
+            <!--best_item-->
+        </div>
+        <!--content-->
+        <div id="footer">
+            <div class="footer_wrap">
+                <h2>사이트 이용안내</h2>
+                <div class="terms">
+                    <h3 class="hide">약관 및 정책</h3>
+                    <ul>
+                        <li><a href="#">개인정보 처리방침</a></li>
+                        <li><a href="#">이용약관</a></li>
+                        <li><a href="#">제휴문의</a></li>
+                    </ul>
+                </div>
+                <!--terms-->
+                <div class="social_link">
+                    <h2 class="hide">소셜공유</h2>
+                    <ul>
+                        <li class="instar"><a href="#">인스타그램</a></li>
+                        <li class="facebook"><a href="#">페이스북</a></li>
+                    </ul>
+                </div>
+                <!--social_link-->
+                <div class="address">
+                    <address>주소 : 서울시 강남구</address>
+                    <p>대표번호 :</p>
+                    <p>대표이사 :</p>
+                    <p>통신판매업 신고번호 :</p>
+                    <p>Copyright KAKAO FRIENDS GOLF SHOP All right reserved</p>
+                </div>
             </div>
         </div>
+        <!--footer-->
     </div>
-    <!--footer-->
+    <!-- wrap -->
 </body>
 
 </html>

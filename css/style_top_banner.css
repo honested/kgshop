@@ -44,59 +44,26 @@ fieldset, legend, form {margin: 0; padding: 0;border: 0;}
 .top_menu li:hover ul {display: block;width: 140px;border: 1px solid #222;left: -95px;top: 55px; border-radius: 5px;background-color: #fff}
 .top_menu li:hover ul li {display: block;text-align: center;}
 
-/* ban_top */
-.ban_top {display: none;}
+/* content */
+.cont1 {background: #c7e9f8;}
+.cont1 h2 {position: absolute;top: -9999px;left: -9999px;}
+.cont1 p {background: url(../images/top_banner_cont1.jpg) no-repeat;width: 1600px;height: 621px;text-indent: -9999px;margin: auto}
 
-/* login_top */
-.login_top {height: 55px; border-bottom: 1px solid #d4d4d4;border-top: 4px solid #ffde00;margin-bottom: 70px}
-.top_cont {width: 920px;margin: auto;line-height: 55px;position: relative;}
-.top_cont h2 {font-size: 16px;font-weight: bold;width: 110px;}
-.top_cont ul {position: absolute;right: 0;top: 0;}
-.top_cont li {float: left;font-size: 14px;}
-.top_cont li a {width: 60px;height: 30px;margin: 0 5px 0}
-/* .login_help {background: url(../images/login_bar.jpg) no-repeat;width: 60px;height: 10px;} */
-.login_help::after {content: " | ";}
+.cont2 h2 {background: url(../images/top_banner_cont2.jpg) no-repeat;width: 1600px;height: 473px;text-indent: -9999px;margin:0 auto 6px}
+.cont2 p {position: absolute;top: -9999px;left: -9999px;}
 
-/* login_cont */
-.login_cont_wrap {height: 483px;border-bottom: 1px solid #e5e5e5;margin-bottom: 25px;}
-.login_cont {width: 920px;margin: auto;}
+.btn_join {width: 1600px;text-align: center;margin: auto}
+.btn_join a {width: 374px;height: 66px;font-size: 20px;font-weight: bold;line-height: 66px;background: #fbe44d;display: inline-block;margin-bottom: 20px}
 
-.cont_info {background: url(../images/login_info.jpg) no-repeat;width: 540px;height: 402px;text-indent: -9999px;float: left;}
+.cont3 h2 {background: url(../images/top_banner_cont3.jpg) no-repeat;width: 1600px;height: 403px;text-indent: -9999px;margin:0 auto 6px;}
+.cont3 p {position: absolute;top: -9999px;left: -9999px;}
 
-.cont_login {width: 340px;height: 400px;border: 1px solid #4c4c4c; float: right;}
+.btn_point {width: 1600px;text-align: center;margin: auto}
+.btn_point a {width: 374px;height: 66px;font-size: 20px;font-weight: bold;line-height: 66px;background: #fbe44d;display: inline-block;margin-bottom: 42px}
 
-.cont_login form {width: 300px;height: 320px;margin: 28px auto 18px;border-bottom: 1px solid #e5e5e5}
-.cont_login fieldset {position: relative;}
-.cont_login legend {font-size: 16px;font-weight: bold;}
-.cont_login input[type=text] {width: 300px;height: 40px;margin: 10px 0 10px;font-size: 14px;}
-.cont_login button {width: 300px;height: 45px;background: #ffde00;margin:10px 0 0 }
-.cont_login button span {font-size: 16px;}
-
-.email_phone_help {background: url(../images/login_help.png) no-repeat;width: 20px;height: 20px;position: absolute;right: 10px;top: 20px;display: block;cursor: pointer;}
-.email_phone_help span, .login_label {position: absolute;left: -9999px;top: -9999px;}
-
-.cont_login ul {width: 300px;margin: auto;position: relative;}
-.cont_login .join {float: left;}
-.cont_login .serch_acc {position: absolute;right: 90px;}
-.cont_login .serch_acc::after {content: " | ";padding-left: 15px}
-.cont_login .re_pwd {position: absolute;right: 0;}
-
-.login_cont_bot {width: 920px;margin: auto;text-align: center;font-size: 12px;}
-.login_cont_bot a {display: inline-block;margin-bottom: 15px}
-.login_cont_bot p {margin-bottom: 50px}
-
-.terms_bar::after {content: " | ";margin: 0 10px}
-
-
-
-
-
-
-
-
-
-
-
+.cont4 {background: #333333;}
+.cont4 h2 {background: url(../images/top_banner_cont4.jpg) no-repeat;width: 1600px;height: 246px;text-indent: -9999px;margin: auto}
+.cont4 p {position: absolute;top: -9999px;left: -9999px;}
 
 
 
