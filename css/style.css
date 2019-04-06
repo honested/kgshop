@@ -52,26 +52,28 @@ body{font-family:"맑은 고딕","돋움",sans-serif,serif;font-size:13px;line-h
 .top_menu li:hover ul li {display: block;text-align: center;}
 
 /* ban_main */
+.main_img {margin-bottom: 50px}
+
 .ban_main {background: url(../images/welcome-2019.jpg) no-repeat;text-indent: -9999px;background-position: center; background-color: #ff3241;}
-.ban_main a {height: 550px;width: 100%; display: block; margin-bottom: 50px;}
+.ban_main a {height: 550px;width: 100%; display: block;}
+
+.ban_main2 {background: url(../images/SALE_kakao.png) no-repeat;text-indent: -9999px;background-position: center; background-color: #ffc160;}
+.ban_main2 a {height: 550px;width: 100%; display: block;}
+
 
 /* recom_item */
-.recom_item {width: 1080px;height: 400px; margin: auto;position: relative;}
-.recom_item_title {text-align: center;font-size: 20px;font-weight: bold;height: 70px;background: url(../images/title_line.jpg) repeat-x left 20px;}
+.recom_item {width: 1080px;height: 300px; margin:0 auto 70px;position: relative;}
+.recom_item_title {text-align: center;font-size: 20px;font-weight: bold;height: 60px;background: url(../images/title_line.jpg) repeat-x left 20px;}
 .recom_item_title span {padding: 0 20px;display: inline-block;background-color: #fff;}
 
-.recom_item ul {width: 887px;margin: auto;}
-.recom_item ul a {display: block; width: 280px;height: 280px;}
-.recom_item ul div {width: 264px;position: absolute; font-size: 16px;border-bottom: 1px solid #d6d6d6;left: 8px;top: 208px;}
-.recom_item ul span {font-size: 22px;font-weight: bold;left: 185px;top: 240px;position: absolute;}
-.recom_item li {float: left;}
+.slick-prev:before,
+.slick-next:before {color: black;}
+.slider {width: 1080px;margin: auto;height: 250px;margin: 0px auto 30px}
 
-.recom_item1 {position: relative; width: 280px;height: 280px;border: 1px solid #d6d6d6;background: url(../images/callaway-ball-set.png) no-repeat left 50% top 10px;}
-.recom_item2 {margin: 0 20px;float: left;position: relative; width: 280px;height: 280px;border: 1px solid #d6d6d6;background: url(../images/callaway-ball-set.png) no-repeat left 50% top 10px;}
-.recom_item3 {position: relative; width: 280px;height: 280px;border: 1px solid #d6d6d6;background: url(../images/callaway-ball-set.png) no-repeat left 50% top 10px;}
-
-.recom_item_prev {width: 27px;height: 59px; background: url(../images/arrow_left.png) no-repeat;position: absolute;top: 160px;display: block;text-indent: -9999px;}
-.recom_item_next {width: 27px;height: 59px; background: url(../images/arrow_right.png) no-repeat;position: absolute;top: 160px;left: 1053px; display: block;text-indent: -9999px;}
+.slider .item {background: url(../images/callaway-ball-set.png) no-repeat;width: 250px;height: 260px;margin:0 0 0 40px;position: relative;}
+.slider .item a {display: block;width: 280px;height: 280px;}
+.slider .item div {position: absolute;left: 0;top: 180px;font-size: 16px;}
+.slider .item span {position: absolute;left: 50px;top: 210px;font-size: 22px;font-weight: bold;}
 
 /* new_item */
 .new_item {width: 1080px;height: 1140px; margin: auto;position: relative;}
