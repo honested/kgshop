@@ -57,23 +57,47 @@
                 <div class="top_menu">
                     <h2 class="hide">사용자메뉴</h2>
                     <ul>
-                        <li><a href="#"><img src="../git/images/search.png" alt="상품검색" /><span
+                        <li><a href="#" class="search_btn"><img src="../git/images/search.png" alt="상품검색" /><span
                                     class="hide">상품검색</span></a></li>
                         <li><a href="cart.html"><img src="../git/images/shopping-cart.png" alt="장바구니" /> <span
                                     class="hide">장바구니</span></a></li>
-                        <li><a href="#"><img src="../git/images/user-plus.png" alt="로그인" /> <span
+                        <li><a href="login.html"><img src="../git/images/user-plus.png" alt="로그인" /> <span
                                     class="hide">로그인</span></a>
                             <ul>
-                                <li><a href="#">로그인</a></li>
+                                <li><a href="login.html">로그인</a></li>
                                 <li><a href="#">주문내역</a></li>
                                 <li><a href="#">찜</a></li>
                                 <li><a href="#">취소 및 교환</a></li>
                                 <li><a href="#">포인트</a></li>
                                 <li><a href="#">쿠폰</a></li>
-                                <li><a href="#">비회원 주문조회</a></li>
+                                <li class="order_chk_open"><a href="#">비회원 주문조회</a></li>
                             </ul>
                         </li>
                     </ul>
+                    <form action="">
+                        <fieldset class="search_pop">
+                            <legend>검색</legend>
+                            <label for="search_txt"></label>
+                            <input type="text" id="search_txt">
+                            <span>&times;</span>
+                        </fieldset>
+                        <div class="order_wrap">
+                            <fieldset class="order_pop">
+                                <legend class="hide">비회원 주문조회</legend>
+                                <h3>비회원 주문조회</h3>
+                                <div class="order_info">
+                                    <label for="order_num">주문번호</label><br>
+                                    <input type="text" name="" id="order_num"><br>
+                                    <label for="order_name">이름</label><br>
+                                    <input type="text" name="" id="order_name"><br>
+                                    <label for="order_mail">이메일</label><br>
+                                    <input type="text" name="" id="order_mail"><br>
+                                    <button type="button" class="order_back">취소</button>
+                                    <button type="button" class="order_chk">주문확인</button>
+                                </div>
+                            </fieldset>
+                        </div>
+                    </form>
                 </div>
                 <!--top_menu-->
             </div>
