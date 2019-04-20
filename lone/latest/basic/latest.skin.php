@@ -49,8 +49,8 @@ add_javascript('<script src="'.G5_JS_URL.'/jquery.bxslider.js"></script>', 10);
            // if ($list[$i]['icon_file']) echo " <i class=\"fa fa-download\" aria-hidden=\"true\"></i>" ;
             //if ($list[$i]['icon_link']) echo " <i class=\"fa fa-link\" aria-hidden=\"true\"></i>" ;
 
-            if ($list[$i]['comment_cnt'])  echo "
-            <span class=\"lt_cmt\">+ ".$list[$i]['comment_cnt']."</span>";
+            // if ($list[$i]['comment_cnt'])  echo "
+            // <span class=\"lt_cmt\">+ ".$list[$i]['comment_cnt']."</span>";
 
             ?>
 

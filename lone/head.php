@@ -18,6 +18,7 @@ include_once(G5_LIB_PATH.'/poll.lib.php');
 include_once(G5_LIB_PATH.'/visit.lib.php');
 include_once(G5_LIB_PATH.'/connect.lib.php');
 include_once(G5_LIB_PATH.'/popular.lib.php');
+include_once(G5_LIB_PATH.'/latest_group.lib.php');
 
 // 아래 배열에 있는 게시판 또는 특정 웹페이지 접속시 우측 aside 영역을 숨기고 container를 100%로 변경하는 css 적용
 $aside_exception = array(

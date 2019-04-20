@@ -41,7 +41,8 @@ include_once(G5_PATH.'/head.php');
         // 이 함수가 바로 최신글을 추출하는 역할을 합니다.
         // 사용방법 : latest(스킨, 게시판아이디, 출력라인, 글자수);
         // 테마의 스킨을 사용하려면 theme/basic 과 같이 지정
-        echo latest('basic', $row['bo_table'], 3, 15);
+        echo latest('basic', $row['bo_table'], 3, 19);
+        
         ?>
     </div>
     <?php
@@ -70,7 +71,7 @@ include_once(G5_PATH.'/head.php');
         // 이 함수가 바로 최신글을 추출하는 역할을 합니다.
         // 사용방법 : latest(스킨, 게시판아이디, 출력라인, 글자수);
         // 테마의 스킨을 사용하려면 theme/basic 과 같이 지정
-        echo latest('basic_01', $row['bo_table'], 2, 15);
+        echo latest('basic_01', $row['bo_table'], 2, 29);
         ?>
     </div>
     <?php
@@ -99,7 +100,7 @@ include_once(G5_PATH.'/head.php');
         // 이 함수가 바로 최신글을 추출하는 역할을 합니다.
         // 사용방법 : latest(스킨, 게시판아이디, 출력라인, 글자수);
         // 테마의 스킨을 사용하려면 theme/basic 과 같이 지정
-        echo latest('basic_01', $row['bo_table'], 2, 15);
+        echo latest('basic_01', $row['bo_table'], 2, 29);
         ?>
     </div>
     <?php
@@ -128,7 +129,7 @@ include_once(G5_PATH.'/head.php');
         // 이 함수가 바로 최신글을 추출하는 역할을 합니다.
         // 사용방법 : latest(스킨, 게시판아이디, 출력라인, 글자수);
         // 테마의 스킨을 사용하려면 theme/basic 과 같이 지정
-        echo latest('basic_02', $row['bo_table'], 3, 15);
+        echo latest('basic_02', $row['bo_table'], 3, 19);
         ?>
     </div>
     <?php
@@ -136,19 +137,17 @@ include_once(G5_PATH.'/head.php');
     ?>
     <!-- } 최신글 끝4 -->
 
-    <!-- 그룹최신글1 -->
+    <!-- 그룹 최신글 시작 -->
     <div class="lt_wr_04">
-        <?php echo latest_group('basic_group', 'MENU_01', 5, 15); ?>
+        <?php echo latest_group('basic_group', 'MENU_01', 8, 13); ?>
     </div>
-    <!-- 그룹최신글1 끝 -->
+    <!-- 그룹 최신글 끝 -->
 
-    <!-- 그룹최신글2 -->
+    <!-- 그룹 최신글 시작1 -->
     <div class="lt_wr_05">
-        <?php echo latest_group('basic_group_01', 'MENU_01', 5, 15); ?>
+        <?php echo latest_group('basic_group_01', 'MENU_01', 8, 13); ?>
     </div>
-    <!-- 그룹최신글2 끝 -->
-
-
+    <!-- 그룹 최신글 끝1 -->
 </div>
 
 <?php
