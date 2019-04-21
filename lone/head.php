@@ -25,7 +25,8 @@ $aside_exception = array(
     "MENU_01_SUB_01",
     "MENU_01_SUB_02",
     "MENU_01_SUB_03",
-    "MENU_01_SUB_04"
+    "MENU_01_SUB_04",
+    "MENU_01_SUB_05"
 );
 $aside_head = (in_array($bo_table,$aside_exception))? "container2":"container";
 $aside_tail = (in_array($bo_table,$aside_exception))? "aside2":"aside";
