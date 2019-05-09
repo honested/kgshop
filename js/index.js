@@ -22,7 +22,8 @@ $(document).ready(function(){
         cssEase: 'linear',
         autoplay: true,
         autoplaySpeed: 3000,
-        arrows: false
+        arrows: false,
+        dots:true
     });
     $('.slider').slick({
         dots: true,

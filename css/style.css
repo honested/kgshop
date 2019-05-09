@@ -64,11 +64,11 @@ input{-moz-appearance: none;appearance: none;border: 0px}
 .order_info {width: 380px;height: 410px;margin: auto;}
 .order_info label {font-size: 15px;}
 .order_info input {width: 380px;height: 40px;border-bottom: 2px solid #232323;margin-bottom: 45px;font-size: 20px;}
-.order_back {width: 170px;height: 40px;font-size: 20px;border: 1px solid #232323;margin-right: 35px}
+.order_back {width: 170px;height: 40px;font-size: 20px;border: 1px solid #232323;margin-right: 34px}
 .order_chk {width: 170px;height: 40px;font-size: 20px;background: #ffdc00;color: #fff;border: 0}
 
 /* ban_main */
-.main_img {margin-bottom: 50px}
+.main_img {margin-bottom: 100px}
 
 .ban_main {background: url(../images/welcome-2019.jpg) no-repeat;text-indent: -9999px;background-position: center; background-color: #ff3241;}
 .ban_main a {height: 550px;width: 100%; display: block;}

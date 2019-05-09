@@ -4,8 +4,13 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
     <title>KAKAO FRIENDS GOLF SHOP</title>
+    <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
     <link rel="stylesheet" type="text/css" href="css/style_kakaovx.css" />
     <link href='http://fonts.googleapis.com/css?family=Noto+Sans' rel='stylesheet' type='text/css' />
+    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="slick/slick.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
 </head>
 
 <body>
@@ -15,12 +20,24 @@
         <a href="#"><span>메뉴 바로가기</span></a>
     </div>
     <!--skipMenu-->
+    <div class="ban_top">
+            <dl>
+                <dt class="hide">포인트 이벤트</dt>
+                <dd>
+                    <a href="top_banner.html">지금 1000포인트 즉시 지급! 포인트 2배 적립!</a>
+                </dd>
+            </dl>
+            <span>&times;</span>
+        </div>
+        <!-- ban_top -->
+        <div class="wrap">
+            <div class="header_wrap">
     <div id="header">
         <h1><a href="index.html">카카오 프렌즈 골프샵</a></h1>
         <div class="gnb">
             <h2 class="hide"><a href="#">주요메뉴</a></h2>
             <ul>
-                <li><a href="#">카테고리</a>
+                <li><a href="callaway.html">카테고리</a>
                     <ul>
                         <li><a href="callaway.html">캘러웨이</a></li>
                         <li><a href="volvik.html">볼빅</a></li>
@@ -39,35 +56,52 @@
         <div class="top_menu">
             <h2 class="hide">사용자메뉴</h2>
             <ul>
-                <li><a href="#"><img src="../git/images/search.png" alt="상품검색" /><span class="hide">상품검색</span></a></li>
-                <li><a href="cart.html"><img src="../git/images/shopping-cart.png" alt="장바구니" /> <span class="hide">장바구니</span></a></li>
-                <li><a href="#"><img src="../git/images/user-plus.png" alt="로그인" /> <span class="hide">로그인</span></a>
+                <li><a href="#" class="search_btn"><img src="images/search.png" alt="상품검색" /><span class="hide">상품검색</span></a></li>
+                <li><a href="cart.html"><img src="images/shopping-cart.png" alt="장바구니" /> <span class="hide">장바구니</span></a></li>
+                <li><a href="login.html"><img src="images/user-plus.png" alt="로그인" /> <span class="hide">로그인</span></a>
                     <ul>
-                        <li><a href="#">로그인</a></li>
+                        <li><a href="login.html">로그인</a></li>
                         <li><a href="#">주문내역</a></li>
                         <li><a href="#">찜</a></li>
                         <li><a href="#">취소 및 교환</a></li>
                         <li><a href="#">포인트</a></li>
                         <li><a href="#">쿠폰</a></li>
-                        <li><a href="#">비회원 주문조회</a></li>
+                        <li class="order_chk_open"><a href="#">비회원 주문조회</a></li>
                     </ul>
                 </li>
             </ul>
+            <form action="">
+                    <fieldset class="search_pop">
+                        <legend>검색</legend>
+                        <label for="search_txt"></label>
+                        <input type="text" id="search_txt">
+                        <span>&times;</span>
+                    </fieldset>
+                    <div class="order_wrap">
+                        <fieldset class="order_pop">
+                            <legend class="hide">비회원 주문조회</legend>
+                            <h3>비회원 주문조회</h3>
+                            <div class="order_info">
+                                <label for="order_num">주문번호</label><br>
+                                <input type="text" name="" id="order_num"><br>
+                                <label for="order_name">이름</label><br>
+                                <input type="text" name="" id="order_name"><br>
+                                <label for="order_mail">이메일</label><br>
+                                <input type="text" name="" id="order_mail"><br>
+                                <button type="button" class="order_back">취소</button>
+                                <button type="button" class="order_chk">주문확인</button>
+                            </div>
+                        </fieldset>
+                    </div>
+                </form>
         </div>
-        <!--top_menu-->
-        <!--<div class="ban_top">
-                        <dl>
-                            <dt class="hide">포인트 이벤트</dt>
-                            <dd><a href="#">지금 1000포인트 즉시 지급! 포인트 2배 적립!</a></dd>
-                        </dl>
-                    </div>-->
-        <!--ban_top-->
+        </div>
     </div>
     <!--header-->
     <div id="content">
         <div class="main_image">
-            <h2 class="hide">악세사리</h2>
-            <a href="#">악세사리</a>
+            <h2 class="hide">카카오VX</h2>
+            <a href="kakaovx.html">카카오VX</a>
         </div>
         <div class="cont_txt">
             <h2 class="hide">카카오VX 소개</h2>
@@ -133,6 +167,8 @@
         </div>
     </div>
     <!--footer-->
+    </div>
+    <!-- wrap -->
 
 
 </body>
